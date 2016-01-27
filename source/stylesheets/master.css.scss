@@ -21,10 +21,10 @@
 .navigation--affixed {
   transition: background-color 0.8s ease;
   background-color: rgba(255,255,255,0.99);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
 }
 
 .navigation-branding {
-  color: black;
   display: inline-block;
   font-family: $font-family-headings-alt;
   letter-spacing: 0.02rem;

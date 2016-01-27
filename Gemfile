@@ -8,6 +8,6 @@ gem 'slim'
 
 # Middleman Gems
 gem 'middleman', '>= 4.0.0'
-gem 'middleman-deploy'
+gem 'middleman-gh-pages'
 gem 'middleman-more'
 gem 'middleman-autoprefixer'
