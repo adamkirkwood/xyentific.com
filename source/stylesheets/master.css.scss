@@ -1,0 +1,63 @@
+@import "concise_shim";
+@import "variables";
+
+
+// Atoms
+@import "atoms/root";
+@import "atoms/figures";
+@import "atoms/headings";
+
+// Molecules
+@import "molecules/case_study_header";
+@import "molecules/case_study_content";
+
+.navigation {
+  width: 100%;
+  padding: 1rem 0 0 0;
+  position: fixed;
+  z-index: 10;
+}
+
+.navigation--affixed {
+  transition: background-color 0.8s ease;
+  background-color: rgba(255,255,255,0.99);
+}
+
+.navigation-branding {
+  color: black;
+  display: inline-block;
+  font-family: $font-family-headings-alt;
+  letter-spacing: 0.02rem;
+  text-transform: lowercase;
+
+  & a {
+    color: black;
+  }
+}
+
+.navigation-item {
+  font-family: $font-family-headings-alt;
+  letter-spacing: 0.02rem;
+  text-transform: lowercase;
+
+  & a {
+    color: black;
+  }
+}
+
+
+
+
+.article-section {
+  padding-top: 9rem;
+}
+
+.article-figure {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+
+  &--focused {
+    margin: 9rem 0 0 0;
+  }
+}

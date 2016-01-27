@@ -1,0 +1,14 @@
+nav.navigation
+  .navigation-container [ container ]
+    .row
+      .navigation-branding
+        strong
+          = link_to "Adam Kirkwood", "/"
+
+      ul.navigation-links.list--inline.float--right
+        li.navigation-item = link_to "About", "/about"
+        li.navigation-item = link_to "Process", "/process"
+        / li.navigation-item = link_to "Principles", "#"
+        li.navigation-item = link_to "Work", "/portfolio"
+        li.navigation-item = link_to "Writing", "https://medium.com/@adamkirkwood"
+        li.navigation-item = link_to "Contact", "#"

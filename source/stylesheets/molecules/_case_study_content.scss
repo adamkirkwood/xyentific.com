@@ -1,0 +1,40 @@
+.case-study__content_wrapper {
+  padding: 0 0 9rem 0;
+}
+
+.case-study__section_content {
+  padding: 9rem 0 0 0;
+
+  & h1 {
+    font-family: $font-family-headings-alt;
+    font-size: 16px;
+    letter-spacing: 0.18rem;
+    margin-bottom: 1rem;
+  }
+
+  & h2 {
+    font-family: $font-family-headings;
+    font-size: 55px;
+    line-height: 1.1em;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  & h3 {
+    font-size: 36px;
+  }
+
+  & h4 {
+    font-family: $font-family-headings-alt;
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  &--image {
+    padding: 0;
+  }
+}
+
+.figure--fullwidth {
+  width: 100%;
+}

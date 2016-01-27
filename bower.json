@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-www",
+  "authors": [
+    "Adam Kirkwood <hello@adamkirkwood.com>"
+  ],
+  "description": "Digital Product Design Portfolio of Adam Kirkwood",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "portfolio",
+    "product",
+    "ux",
+    "design"
+  ],
+  "license": "MIT",
+  "homepage": "http://xyentific.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "headroom.js": "~0.7.0",
+    "concise": "~3.2.0"
+  }
+}

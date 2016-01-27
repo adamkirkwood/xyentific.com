@@ -1,0 +1,27 @@
+h1 {
+  font-size: 55px;
+  font-family: $font-family-headings;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 44px;
+  font-family: $font-family-headings-alt;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: $font-family-headings;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+p {
+  font-size: 20px;
+  line-height: 162.5%;
+}
