@@ -1,0 +1,50 @@
+@import "concise_shim";
+@import "variables";
+
+
+// Atoms
+@import "atoms/root";
+@import "atoms/figures";
+@import "atoms/headings";
+
+// Molecules
+// @import "molecules/case_study_header";
+@import "molecules/case_study_content";
+
+.case-study {
+  @include clearfix();
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  &__masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  &__title {
+    color: white;
+    font-family: $font-family-headings;
+    font-weight: 400;
+    font-size: 72px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20vw;
+  }
+
+  &__leader {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin: 0 20vw;
+  }
+}

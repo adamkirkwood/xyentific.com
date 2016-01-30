@@ -1,13 +1,24 @@
-.case-study__content_wrapper {
-  padding: 0 0 9rem 0;
+.case-study__section {
+  @include clearfix();
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
-.case-study__section_content {
-  padding: 9rem 0 0 0;
+.case-study__content {
+  @include clearfix();
+
+  padding: 9rem 0;
+  max-width: 800px;
+  justify-content: center;
+  align-items: center;
 
   & h1 {
     font-family: $font-family-headings-alt;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.18rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -33,9 +44,14 @@
 
   &--image {
     padding: 0;
+    width: 100vw;
+
+    & image {
+      width: 100%;
+    }
   }
 }
 
-.figure--fullwidth {
+.media--fluid {
   width: 100%;
 }

@@ -15,7 +15,7 @@ page '/*.txt', layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
-page "/work/*", layout: "work"
+page "/work/*", layout: "flexbox"
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
@@ -27,6 +27,11 @@ activate :directory_indexes
 after_configuration do
   bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   import_path File.expand_path(bower_config["directory"], app.root)
+end
+
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.ignore   = []
 end
 
 ###
