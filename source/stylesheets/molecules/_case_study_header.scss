@@ -1,35 +1,38 @@
 // Case Study Header
 .case-study {
+  @include clearfix();
 
-  &__header {
-    background-color: #232E41;
-    height: 660px;
-    position: relative;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 
-  &__container {
-    @include clearfix();
+  &__masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // align-items: flex-start;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 22vh;
   }
 
   &__title {
-    color: white;
+    color: rgba(0,0,0,0.8);
     font-family: $font-family-headings;
     font-weight: 400;
     font-size: 72px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 20vw;
   }
 
   &__leader {
-    color: white;
+    color: rgba(0,0,0,0.8);
     font-size: 26px;
     text-align: center;
-  }
-
-  &__section_content {
-    &--fullspan {
-      padding: 0 !important;
-    }
+    margin: 0 20vw;
   }
 }

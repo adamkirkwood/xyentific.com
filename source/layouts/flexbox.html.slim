@@ -10,15 +10,15 @@ html
     == stylesheet_link_tag :flexbox
 
   body class="#{page_classes}"
-    / == partial "main_navigation"
-    
+    == partial "main_navigation"
+
     article.case-study
-      header.case-study__masthead [ style="background: url(#{current_page.data.masthead_image}) no-repeat; background-size: cover;" ]
+      header.case-study__masthead [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 23%;" ]
         h1.case-study__title == current_page.data.title
         p.case-study__leader == current_page.data.leader_copy
 
       == yield
-    
+
   == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
   == javascript_include_tag "all"
   == javascript_include_tag "https://use.typekit.net/phm1reb.js"

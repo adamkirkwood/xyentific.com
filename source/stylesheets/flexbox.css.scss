@@ -1,3 +1,4 @@
+@import "normalizecss/normalize";
 @import "concise_shim";
 @import "variables";
 
@@ -8,8 +9,12 @@
 @import "atoms/headings";
 
 // Molecules
-// @import "molecules/case_study_header";
+@import "molecules/case_study_header";
 @import "molecules/case_study_content";
+
+* {
+  box-sizing: border-box;
+}
 
 .headroom {
   transition: transform 200ms linear;
@@ -21,56 +26,31 @@
   transform: translateY(-100%);
 }
 
-.case-study {
-  @include clearfix();
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-
-  &__masthead {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    width: 100vw;
-    background-size: cover;
-  }
-
-  &__title {
-    color: white;
-    font-family: $font-family-headings;
-    font-weight: 400;
-    font-size: 72px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 20vw;
-  }
-
-  &__leader {
-    color: white;
-    font-size: 26px;
-    text-align: center;
-    margin: 0 20vw;
-  }
+.headroom--top {
+  background-color: transparent;
 }
 
+.headroom--not-top {
+  background-color: white;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
 .navigation {
-  background-color: white;
-  position: absolute;
-  z-index: 10;
+  position: fixed;
   top: 0;
-  left: 0;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
+}
+
+.navigation-branding {
+  padding: 0 0 0 2rem;
+  & a {
+    color: black;
+    line-height: 62px;
+    text-decoration: none;
+  }
 }
 
 .navigation-links {
@@ -79,6 +59,7 @@
   align-items: stretch;
   list-style: none;
   margin: 0;
+  padding: 0 2rem 0 0;
 }
 
 .navigation-item {
