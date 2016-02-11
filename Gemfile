@@ -7,7 +7,8 @@ gem 'image_optim_pack'
 gem 'slim'
 
 # Middleman Gems
-gem 'middleman', '>= 4.0.0'
+gem 'middleman', '3.4.1'
 gem 'middleman-gh-pages'
 gem 'middleman-more'
 gem 'middleman-autoprefixer'
+gem 'middleman-sprockets', '3.4.2'

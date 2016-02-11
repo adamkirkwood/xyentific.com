@@ -1,6 +1,6 @@
-//= require_tree .
-
-
-$(document).scroll(function() {
-  $('.navigation').toggleClass('navigation--affixed', $(this).scrollTop() > 1);
-});
+/*
+ * //= require jquery-unveil/jquery.unveil
+ * //= require headroomjs/dist/jQuery.headroom
+ * //= require headroomjs/dist/headroom
+ * //= require components/navigation
+ */

@@ -1,6 +1,6 @@
 require 'slim'
 Slim::Engine.options[:pretty] = true
-Slim::Engine.options[:format] = :html5
+Slim::Engine.options[:format] = :html
 
 ###
 # Page options, layouts, aliases and proxies
@@ -23,11 +23,9 @@ page "/work/*", layout: "flexbox"
 
 # General configuration
 activate :directory_indexes
+activate :sprockets
 
-after_configuration do
-  bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-  import_path File.expand_path(bower_config["directory"], app.root)
-end
+sprockets.append_path File.join "#{root}", "bower_components"
 
 activate :autoprefixer do |config|
   config.browsers = ['last 2 versions', 'Explorer >= 9']
@@ -47,12 +45,13 @@ end
 
 # Build-specific configuration
 configure :build do
-  activate :minify_css
-  activate :minify_javascript
+  # activate :minify_css
+  # activate :minify_javascript
 
   # Use this for gh-pages
   activate :relative_assets
   set :relative_links, true
 
   ignore 'bower_components/**/*'
+  ignore 'node_modules/**/*'
 end
