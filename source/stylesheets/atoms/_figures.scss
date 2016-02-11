@@ -1,7 +1,13 @@
 figure {
+  margin: 0;
 
+  &--fullwidth {
+    width: 100vw;
+  }
 }
 
 figcaption {
   padding: 0.3rem 0 0 0;
+  text-align: center;
+  color: rgba(0,0,0,0.6);
 }
