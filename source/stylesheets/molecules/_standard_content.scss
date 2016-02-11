@@ -1,4 +1,4 @@
-.case-study {
+.page {
   &__section {
     @include clearfix();
 
@@ -12,7 +12,7 @@
   &__content {
     @include clearfix();
 
-    padding: 9rem 0;
+    padding: 6rem 0;
     max-width: 45vw;
     margin: 0 22.5vw;
     justify-content: center;
@@ -44,6 +44,7 @@
       // margin-bottom: 0;
     }
 
+
     &--image {
       padding: 0;
       width: 100vw;
@@ -55,6 +56,6 @@
   }
 }
 
-.media--fluid {
-  width: 100%;
+em.leader {
+  font-size: $h3-size;
 }

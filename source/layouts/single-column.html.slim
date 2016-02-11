@@ -12,10 +12,10 @@ html
   body class="#{page_classes}"
     == partial "main_navigation"
 
-    article.case-study
-      header.case-study__masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
-        h1.case-study__title == current_page.data.title
-        p.case-study__leader == current_page.data.leader_copy
+    article.page
+      header.page__masthead.masthead--third [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
+        h1.page__title == current_page.data.title
+        p.page__leader == current_page.data.leader_copy
 
       == yield
 

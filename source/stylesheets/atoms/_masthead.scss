@@ -1,0 +1,22 @@
+.masthead {
+  &--full {
+    padding-top: 26vh;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
+  &--half {
+    height: 50vh;
+    justify-content: center;
+  }
+
+  &--third {
+    height: 66vh;
+    justify-content: center;
+  }
+
+  &--quarter {
+    height: 25vh;
+    justify-content: center;
+  }
+}

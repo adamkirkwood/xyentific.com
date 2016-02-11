@@ -1,29 +1,60 @@
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
 h1 {
-  font-size: 55px;
+  // font-size: 55px;
+  font-size: $h1-size;
   font-family: $font-family-headings;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 44px;
+  // font-size: 44px;
+  font-size: $h2-size;
   font-family: $font-family-headings-alt;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 28px;
+  // font-size: 28px;
+  font-size: $h3-size;
   font-family: $font-family-headings;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   font-style: normal;
   font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 0;
 }
 
+h4 {
+  font-size: $h4-size;
+}
+
 p {
-  font-size: 20px;
   line-height: 162.5%;
-  margin-top: 0;
+  margin-bottom: 1.3em;
+  // margin-top: 0;
+}
+
+
+html {
+  font-size: $font-base-size;
+}
+
+body {
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+small, .font_small {
+  font-size: 0.707em;
 }

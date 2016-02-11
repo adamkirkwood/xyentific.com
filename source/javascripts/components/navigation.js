@@ -2,7 +2,7 @@ $(function() {
 
   $(".navigation__primary").headroom(
     {
-      offset : 0,
+      offset : 205,
       tolerance: 5,
       classes : {
           initial : "headroom",

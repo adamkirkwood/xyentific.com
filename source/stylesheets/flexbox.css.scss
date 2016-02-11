@@ -7,75 +7,15 @@
 @import "atoms/root";
 @import "atoms/figures";
 @import "atoms/headings";
+@import "atoms/masthead";
 
 // Molecules
+@import "molecules/standard_header";
+@import "molecules/standard_content";
 @import "molecules/case_study_header";
 @import "molecules/case_study_content";
+@import "molecules/navigation";
 
 * {
   box-sizing: border-box;
-}
-
-.headroom {
-  transition: transform 200ms linear;
-}
-.headroom--pinned {
-  transform: translateY(0%);
-}
-.headroom--unpinned {
-  transform: translateY(-100%);
-}
-
-.headroom--top {
-  background-color: transparent;
-}
-
-.headroom--not-top {
-  background-color: white;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.navigation {
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100vw;
-}
-
-.navigation-branding {
-  padding: 0 0 0 2rem;
-  & a {
-    color: black;
-    line-height: 62px;
-    text-decoration: none;
-  }
-}
-
-.navigation-links {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  list-style: none;
-  margin: 0;
-  padding: 0 2rem 0 0;
-}
-
-.navigation-item {
-  flex-basis: 100px;
-  text-align: center;
-
-  & a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    line-height: 62px;
-    padding: 0 1rem;
-    border-bottom: 2px solid white;
-
-    &:hover {
-      border-bottom: 2px solid cyan;
-    }
-  }
 }
