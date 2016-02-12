@@ -18,6 +18,8 @@ html
         p.masthead__leader == current_page.data.leader_copy
 
       == yield
+      
+    == partial "footer"
 
   == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
   == javascript_include_tag "all"

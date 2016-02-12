@@ -26,6 +26,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  font-family: $font-family-headings-alt;
 }
 
 .navigation-branding {
@@ -51,15 +52,16 @@
   text-align: center;
 
   & a {
+    transition: border #{$transition-duration} linear;
     color: black;
     display: block;
     text-decoration: none;
     line-height: 62px;
     padding: 0 1rem;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid transparent;
 
     &:hover {
-      border-bottom: 2px solid cyan;
+      border-bottom: 2px solid #00ADB5;
     }
   }
 }

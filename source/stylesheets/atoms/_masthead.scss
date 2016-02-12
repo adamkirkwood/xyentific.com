@@ -5,7 +5,7 @@
   // align-items: flex-start;
   height: 100vh;
   width: 100%;
-  padding-top: 26vh;
+  // padding-top: 26vh;
   border-bottom: 1px solid rgba(0,0,0,0.05);
 
   &__title {
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto 0.2em auto;
-    width: 40vw;
+    width: 50%;
   }
 
   &__leader {
@@ -25,7 +25,7 @@
     font-size: $font-base-size;
     text-align: center;
     margin: 0 auto;
-    width: 40vw;
+    width: 50%;
   }
 
   &--full {

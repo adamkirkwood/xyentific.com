@@ -5,25 +5,24 @@ html
     meta charset="utf-8"
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"
 
-    title = current_page.data.title || "The Middleman"
+    title = current_page.data.title || "User Experience &amp; Product Design Portfolio of Adam Kirkwood"
 
-    == stylesheet_link_tag :master
-    
-    == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
-    == javascript_include_tag "all"
-    == javascript_include_tag "https://use.typekit.net/phm1reb.js"
-    javascript:
-      try{Typekit.load({ async: true });}catch(e){}
+    == stylesheet_link_tag :flexbox
 
   body class="#{page_classes}"
     == partial "main_navigation"
 
     article.case-study
-      header.case-study__header [ style="background: url(#{current_page.data.masthead_image}) top center no-repeat" ]
-        .case-study__container [ container ]
-          .row
-            .masthead-content.center--all[ column="6" ]
-              h1.case-study__title == current_page.data.title
-              p.case-study__leader == current_page.data.leader_copy
+      header.masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #EEEEEE; background-size: 312px 345px;" ]
+        h1.masthead__title == current_page.data.title
+        p.masthead__leader == current_page.data.leader_copy
 
       == yield
+    
+    == partial "footer"
+
+  == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
+  == javascript_include_tag "all"
+  == javascript_include_tag "https://use.typekit.net/phm1reb.js"
+  javascript:
+    try{Typekit.load({ async: true });}catch(e){}

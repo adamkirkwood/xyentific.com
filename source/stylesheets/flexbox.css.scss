@@ -10,11 +10,14 @@
 @import "atoms/masthead";
 
 // Molecules
+@import "molecules/navigation";
+@import "molecules/footer";
+
 @import "molecules/standard_header";
 @import "molecules/standard_content";
+
 @import "molecules/case_study_header";
 @import "molecules/case_study_content";
-@import "molecules/navigation";
 
 * {
   box-sizing: border-box;
