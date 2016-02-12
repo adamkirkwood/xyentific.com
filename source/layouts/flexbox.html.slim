@@ -13,9 +13,9 @@ html
     == partial "main_navigation"
 
     article.case-study
-      header.case-study__masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
-        h1.case-study__title == current_page.data.title
-        p.case-study__leader == current_page.data.leader_copy
+      header.masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
+        h1.masthead__title == current_page.data.title
+        p.masthead__leader == current_page.data.leader_copy
 
       == yield
 

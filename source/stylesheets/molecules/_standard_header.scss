@@ -6,28 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-
-  &__masthead {
-    display: flex;
-    flex-direction: column;
-    // justify-content: flex-start;
-    // align-items: flex-start;
-    width: 100vw;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
-  }
-
-  &__title {
-    color: rgba(0,0,0,0.8);
-    font-family: $font-family-headings;
-    font-weight: 400;
-    font-size: $h1-size;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 auto;
-    width: 40vw;
-  }
+  width: 100%;
 
   &__leader {
     color: rgba(0,0,0,0.8);
