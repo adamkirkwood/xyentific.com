@@ -8,7 +8,7 @@
 // ----
 
 // Transition duration
-// $transition-duration: 150ms;
+$transition-duration: 150ms;
 
 // Breakpoints
 // $bp-extra-small: 30em;
@@ -57,19 +57,19 @@ $font-family-headings:      "freight-sans-compressed-pro", "Helvetica", "Arial",
 $font-family-headings-alt:  "freight-sans-pro", "Helvetica", "Arial", sans-serif;
 // $font-family-print:    "Georgia", "Times New Roman", "Times", serif;
 // $font-family-mono:     "Consolas", monospace;
-// $font-base-size:       16;
+$font-base-size:            1.125em;
 
 
 //
 // Heading sizes
 // ----------
 
-// $h1-size: 48;
-// $h2-size: 36;
-// $h3-size: 28;
-// $h4-size: 18;
-// $h5-size: 16;
-// $h6-size: 14;
+$h1-size: 3.998em;
+$h2-size: 2.827em;
+$h3-size: 1.999em;
+$h4-size: 1.414em;
+$h5-size: 1em;
+$h6-size: 0.707em;
 // $giga-size: 80;
 // $mega-size: 64;
 // $kilo-size: 52;
