@@ -11,13 +11,13 @@ html
 
   body class="#{page_classes}"
     == partial "main_navigation"
-    
+
     header.masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
       h1.masthead__title Hello, I'm Adam Kirkwood
       p.masthead__leader A digital product designer that believes in a world where products are designed to improve the <em>human</em> experience
 
     == yield
-    
+
     == partial "footer"
 
   == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
