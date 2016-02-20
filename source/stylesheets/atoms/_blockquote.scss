@@ -4,11 +4,12 @@ blockquote {
 
   & p {
     color: #3D84A8;
-    font-size: $h3-size;
+    font-size: $h4-size;
     margin: 0;
     font-style: italic;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    margin-bottom: 1.5rem;
   }
 
   & span {
