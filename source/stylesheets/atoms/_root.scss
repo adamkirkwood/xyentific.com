@@ -1,5 +1,10 @@
+html {
+  font-size: $font-base-size;
+}
+
 body {
   font-family: $font-family;
   margin: 0;
   padding: 0;
+  color: rgba(0,0,0,0.7);
 }
