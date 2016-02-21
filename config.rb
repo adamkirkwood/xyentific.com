@@ -32,6 +32,14 @@ activate :autoprefixer do |config|
   config.ignore   = []
 end
 
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.remote   = 'origin' # remote name or git url, default: origin
+  deploy.branch   = 'gh-pages' # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+end
+
 ###
 # Helpers
 ###
