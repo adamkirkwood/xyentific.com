@@ -7,12 +7,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+
+    padding: 7rem 0;
   }
 
   &__content {
     @include clearfix();
-
-    padding: 9rem 0;
     max-width: 45vw;
     margin: 0 22.5vw;
     justify-content: center;
@@ -32,10 +32,12 @@
       // line-height: 1.1em;
       margin-top: 0;
       // margin-bottom: 1.5rem;
+      color: getColor(text, secondary);
     }
 
     & h3 {
       font-size: $h3-size;
+      color: getColor(text, primary);
     }
 
     & h4 {
@@ -51,6 +53,16 @@
       & image {
         width: 100%;
       }
+    }
+
+    &--span {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      max-width: none;
+      margin: auto;
     }
   }
 }

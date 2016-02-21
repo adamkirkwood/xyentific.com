@@ -13,12 +13,12 @@ html
     == partial "main_navigation"
 
     article.case-study
-      header.masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #EEEEEE; background-size: 312px 345px;" ]
+      header.masthead.masthead--full [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #EEEEEE; background-size: 28%;" ]
         h1.masthead__title == current_page.data.title
         p.masthead__leader == current_page.data.leader_copy
 
       == yield
-    
+
     == partial "footer"
 
   == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
