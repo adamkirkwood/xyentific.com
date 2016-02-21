@@ -12,11 +12,12 @@ html
   body class="#{page_classes}"
     == partial "main_navigation"
 
-    header.masthead.masthead--third [ style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
-      h1.masthead__title Hello, I'm Adam Kirkwood
-      p.masthead__leader A digital product designer that believes in a world where products are designed to improve the <em>human</em> experience
+    article.page
+      header [ class="masthead #{ current_page.data.masthead_class || '' }" style="background: url(#{current_page.data.masthead_image}) bottom center no-repeat; background-color: #FCFCFC; background-size: 312px 345px;" ]
+        h1.masthead__title == current_page.data.title
+        p.masthead__leader == current_page.data.leader_copy
 
-    == yield
+      == yield
 
     == partial "footer"
 
