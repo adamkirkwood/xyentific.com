@@ -33,7 +33,7 @@ activate :autoprefixer do |config|
 end
 
 activate :deploy do |deploy|
-  deploy.deploy_method = :git
+  deploy.method = :git
   deploy.remote   = 'origin'
   deploy.branch   = 'gh-pages'
   deploy.build_before = true
