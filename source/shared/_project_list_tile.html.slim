@@ -1,19 +1,32 @@
-/ section.page__section
+/section.page__section.page__section--two-up
 /  .page__content
-/    h1 = link_to 'Tango Video Calling', '/work/tango-video-calling'
+/    h3 = link_to 'Tango Video Calling', '/work/tango-video-calling'
 /    p A simplified calling experience is only the beginning
-/    = image_tag '/images/work/tango-out/tango-out-preview.png'
+/
+/    p = link_to 'View Case Study', '/work/tango-video-calling'
+/
+/  .page__content
+/    figure
+/      = image_tag '/images/work/tango-out/tango-out-preview.png', style: "margin: 0 auto; display: block;"
 
-section.page__section
+section.page__section.page__section--two-up.page__section--reverse
   .page__content
-    h1 = link_to 'Tango Out', '/work/tango-out'
+    h3 = link_to 'Tango Out', '/work/tango-out'
     p A simplified calling experience was only the beginning
 
+    p = link_to 'View Case Study', '/work/tango-video-calling'
+
+  .page__content
     figure
       = image_tag '/images/work/tango-out/tango-out-preview.png', style: "margin: 0 auto; display: block;"
 
-/section.page__section
+/section.page__section.page__section--two-up
 /  .page__content
-/    h1 = link_to 'Recurly app', '/work/recurly-app'
+/    h3 = link_to 'Recurly app', '/work/recurly-app'
 /    p A tactical redesign of mission critical software
-/    = image_tag '/images/work/recurly-app/recurly-app-preview.png'
+/
+/    p = link_to 'View Case Study', '/work/tango-video-calling'
+/
+/  .page__content
+/    figure
+/      = image_tag '/images/work/recurly-app/recurly-app-preview.png', style: "margin: 0 auto; display: block;"

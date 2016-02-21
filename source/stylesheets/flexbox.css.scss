@@ -5,6 +5,7 @@
 
 // Atoms
 @import "atoms/root";
+@import "atoms/a";
 @import "atoms/device_frame";
 @import "atoms/hr";
 @import "atoms/cards";
@@ -16,12 +17,8 @@
 // Molecules
 @import "molecules/navigation";
 @import "molecules/footer";
-
-@import "molecules/standard_header";
-@import "molecules/standard_content";
-
-@import "molecules/case_study_header";
-@import "molecules/case_study_content";
+@import "molecules/page_header";
+@import "molecules/page_content";
 
 * {
   box-sizing: border-box;

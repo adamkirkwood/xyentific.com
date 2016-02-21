@@ -2,17 +2,18 @@ blockquote {
   text-align: center;
   margin: 4rem auto;
 
-  & p {
-    color: getColor(blue,base);
-    font-size: $h4-size;
-    margin: 0;
-    font-style: italic;
-    margin-left: 16vw;
-    margin-right: 16vw;
-    margin-bottom: 1.5rem;
-  }
+}
 
-  & span {
-    color: #48466D;
-  }
+.blockquote__content {
+  color: getColor(blue,base);
+  font-size: $h4-size;
+  margin: 0;
+  font-style: italic;
+  margin-left: 16vw;
+  margin-right: 16vw;
+  margin-bottom: 1.5rem;
+}
+
+.blockquote__byline {
+  color: #48466D;
 }

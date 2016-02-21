@@ -1,4 +1,4 @@
-.case-study {
+.page {
   &__section {
     @include clearfix();
 
@@ -13,8 +13,8 @@
 
   &__content {
     @include clearfix();
-    max-width: 45vw;
-    margin: 0 22.5vw;
+    // max-width: 45vw;
+    // margin: 0 22.5vw;
     justify-content: center;
     align-items: center;
 
@@ -46,6 +46,19 @@
       // margin-bottom: 0;
     }
 
+    & > p,
+    & > ul,
+    & > h1,
+    & > h2,
+    & > h3,
+    & > h4,
+    & > h5 {
+      max-width: 45vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
     &--image {
       padding: 0;
       width: 100%;
@@ -67,6 +80,41 @@
   }
 }
 
+.page__section--two-up {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0 15% 7rem;
+
+  .page__content {
+    width: 50%;
+
+    &:first-child {
+      padding-left: 10rem;
+    }
+  }
+}
+
+.page__section--reverse {
+  flex-direction: row-reverse;
+
+  .page__content {
+    &:first-child {
+      padding-left: 5rem;
+    }
+  }
+}
+
+
 .media--fluid {
   width: 100%;
+}
+
+em.leader {
+  display: block;
+  font-size: $h4-size;
+  max-width: 45vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
 }
