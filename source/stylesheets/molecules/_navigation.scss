@@ -64,4 +64,10 @@
       border-bottom: 2px solid #00ADB5;
     }
   }
+
+  &--active {
+    & a {
+      border-bottom: 2px solid #00ADB5;
+    }
+  }
 }

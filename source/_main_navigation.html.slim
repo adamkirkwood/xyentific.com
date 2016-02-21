@@ -4,9 +4,9 @@ nav.navigation.navigation__primary.headroom--top
       = link_to "Adam Kirkwood", "/"
 
   ul.navigation-links
-    / li.navigation-item = link_to "About", "/about"
-    li.navigation-item = link_to "Process", "/process"
-    / li.navigation-item = link_to "Principles", "#"
-    li.navigation-item = link_to "Work", "/work"
-    li.navigation-item = link_to "Writing", "https://medium.com/@adamkirkwood", target: '_blank'
-    li.navigation-item = link_to "Contact", "mailto:adam@xyentific.com"
+    / li[ class="navigation-item #{current_page.data.active_tab == 'about' ? 'navigation-item--active' : ''}"] = link_to "About", "/about"
+    li[ class="navigation-item #{current_page.data.active_tab == 'process' ? 'navigation-item--active' : ''}"] = link_to "Process", "/process"
+    / li[ class="navigation-item #{current_page.data.active_tab == 'principles' ? 'navigation-item--active' : ''}"] = link_to "Principles", "#"
+    li[ class="navigation-item #{current_page.data.active_tab == 'work' ? 'navigation-item--active' : ''}"] = link_to "Work", "/work"
+    li[ class="navigation-item"] = link_to "Writing", "https://medium.com/@adamkirkwood", target: '_blank'
+    li[ class="navigation-item"] = link_to "Contact", "mailto:adam@xyentific.com"
