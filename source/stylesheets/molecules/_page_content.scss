@@ -84,12 +84,27 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
-  padding: 0 15%;
+  padding: 0 15% 7rem;
 
   .page__content {
     width: 50%;
+
+    &:first-child {
+      padding-left: 10rem;
+    }
   }
 }
+
+.page__section--reverse {
+  flex-direction: row-reverse;
+
+  .page__content {
+    &:first-child {
+      padding-left: 5rem;
+    }
+  }
+}
+
 
 .media--fluid {
   width: 100%;
