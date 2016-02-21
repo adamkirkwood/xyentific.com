@@ -60,6 +60,17 @@
   }
 }
 
+.page__section--two-up {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 0 20%;
+
+  .page__content {
+    width: 50%;
+  }
+}
+
 em.leader {
   display: block;
   font-size: $h4-size;
