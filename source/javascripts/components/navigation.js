@@ -2,8 +2,8 @@ $(function() {
 
   $(".navigation__primary").headroom(
     {
-      offset : 205,
-      tolerance: 5,
+      offset : 5,
+      tolerance: 50,
       classes : {
           initial : "headroom",
           pinned : "headroom--pinned",
