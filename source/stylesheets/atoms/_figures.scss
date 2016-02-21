@@ -1,10 +1,6 @@
 figure {
-  background-color: transparent;
+  background-color: getColor(base, primary);
   margin: 0;
-
-  &--fullwidth {
-    width: 100%;
-  }
 }
 
 figcaption {

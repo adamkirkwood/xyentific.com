@@ -79,6 +79,24 @@ $h6-size: 0.707em;
 // Color Palette
 // -------------
 
+@function getColor($color, $value: "base") {
+  @return map-get(map-get($colors, $color), $value);
+}
+
+$colors: (
+  base: (
+    'primary': #FFFFFF,
+    'alt': #EEEEEE
+  ),
+  text: (
+    'primary': rgba(0,0,0,0.7),
+    'secondary': rgba(0,0,0,0.6)
+  ),
+  blue: (
+    'base': #3D84A8
+  )
+);
+
 // Colors
 // $colors: (
 //   base: (
