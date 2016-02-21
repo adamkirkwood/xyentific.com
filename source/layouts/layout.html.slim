@@ -21,8 +21,9 @@ html
 
     == partial "footer"
 
-  == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
-  == javascript_include_tag "all"
+  / == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
+  == javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
   == javascript_include_tag "https://use.typekit.net/phm1reb.js"
   javascript:
     try{Typekit.load({ async: true });}catch(e){}
+  == javascript_include_tag "all"

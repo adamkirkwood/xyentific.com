@@ -19,4 +19,10 @@ $(function() {
     }
   );
 
+  $("img").unveil(10, function() {
+    $(this).load(function() {
+      this.style.opacity = 1;
+    });
+  });
+
 })
