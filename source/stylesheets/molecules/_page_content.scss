@@ -10,7 +10,7 @@
 
     padding: 4rem 0;
 
-    @include mappy-bp(max small) {
+    @include mappy-bp(med) {
       padding: 7rem 0;
     }
   }
@@ -29,7 +29,7 @@
     }
 
     & h2 {
-      font-family: $font-family-headings;
+      font-family: $font-family-headings-alt;
       font-size: $h3-size;
       // line-height: 1.1em;
       margin-top: 0;
