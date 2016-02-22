@@ -11,13 +11,10 @@
 $transition-duration: 150ms;
 
 // Breakpoints
-// $bp-extra-small: 30em;
-// $bp-small:       48em;
-// $bp-medium:      60em;
-// $bp-large:       70em;
-// $bp-extra-large: 80em;
-
-
+$breakpoints: (
+  'small': 320px,
+  'med': 640px
+);
 
 //
 // Typography
@@ -29,6 +26,7 @@ $font-family-headings-alt:  "freight-sans-pro", "Helvetica", "Arial", sans-serif
 // $font-family-print:    "Georgia", "Times New Roman", "Times", serif;
 // $font-family-mono:     "Consolas", monospace;
 $font-base-size:            1.125em;
+$font-base-size-plus:       1.250em;
 
 
 //

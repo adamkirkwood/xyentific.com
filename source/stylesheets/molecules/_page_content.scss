@@ -53,9 +53,14 @@
     & > h3,
     & > h4,
     & > h5 {
-      max-width: 45vw;
-      margin-left: auto;
-      margin-right: auto;
+      margin-right: 20px;
+      margin-left: 20px;
+
+      @include mappy-bp(max small) {
+        max-width: 45vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
 
@@ -113,8 +118,14 @@
 em.leader {
   display: block;
   font-size: $h4-size;
-  max-width: 45vw;
-  margin-left: auto;
-  margin-right: auto;
   font-style: normal;
+
+  margin-right: 20px;
+  margin-left: 20px;
+
+  @include mappy-bp(max small) {
+    max-width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
