@@ -1,19 +1,27 @@
 .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  padding: 0 10%;
+
+  @include mappy-bp(max small) {
+    flex-direction: row;
+    padding: 0 10%;
+  }
 }
 
 .card {
   border: 1px solid getColor(base, alt);
-  width: 46%;
-  margin: 1%;
+  margin: 0 20px 20px;
   padding: 1.5rem 1.5rem 0 1.5rem;
   min-height: 150px;
   background-color: getColor(base, primary);
+
+  @include mappy-bp(max small) {
+    width: 46%;
+    margin: 1%;
+  }
 }
 
 .card-title {
@@ -23,5 +31,9 @@
 }
 
 .card-content {
-  font-size: $h5-size;
+  font-size: $h6-size;
+  
+  @include mappy-bp(max small) {
+    font-size: $h5-size;
+  }
 }

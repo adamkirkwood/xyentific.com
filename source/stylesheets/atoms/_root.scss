@@ -1,9 +1,5 @@
 html {
-  font-size: $font-base-size-plus;
-
-  @include mappy-bp(max small) {
-    font-size: $font-base-size;
-  }
+  font-size: $font-base-size;
 }
 
 body {

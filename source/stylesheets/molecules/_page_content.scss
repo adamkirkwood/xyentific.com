@@ -8,7 +8,11 @@
     align-items: center;
     width: 100%;
 
-    padding: 7rem 0;
+    padding: 4rem 0;
+
+    @include mappy-bp(max small) {
+      padding: 7rem 0;
+    }
   }
 
   &__content {
@@ -28,16 +32,24 @@
 
     & h2 {
       font-family: $font-family-headings;
-      font-size: $h2-size;
+      font-size: $h3-size;
       // line-height: 1.1em;
       margin-top: 0;
       // margin-bottom: 1.5rem;
       color: getColor(text, secondary);
+
+      @include mappy-bp(max small) {
+        font-size: $h2-size;
+      }
     }
 
     & h3 {
-      font-size: $h3-size;
+      font-size: $h4-size;
       color: getColor(text, primary);
+
+      @include mappy-bp(max small) {
+        font-size: $h3-size;
+      }
     }
 
     & h4 {
@@ -53,6 +65,8 @@
     & > h3,
     & > h4,
     & > h5 {
+
+      max-width: none;
       margin-right: 20px;
       margin-left: 20px;
 
