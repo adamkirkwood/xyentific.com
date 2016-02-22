@@ -33,15 +33,11 @@
 }
 
 .card-title {
-  font-family: $font-family-headings-alt;
+  font-family: $font-family-headings;
   font-size: $h5-size;
   color: getColor(blue, base);
 }
 
 .card-content {
-  font-size: $h6-size;
-
-  @include mappy-bp(max small) {
-    font-size: $h5-size;
-  }
+  font-size: $h5-size;
 }

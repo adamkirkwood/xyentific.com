@@ -10,16 +10,16 @@
 
   &__title {
     color: rgba(0,0,0,0.8);
-    font-family: $font-family-headings-alt;
+    font-family: $font-family-headings;
     font-weight: 400;
-    font-size: $h2-size;
+    font-size: $h3-size;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
     margin: 0 20px;
 
     @include mappy-bp(med) {
-      font-size: $h1-size;
+      font-size: $h2-size;
       margin: 0 auto 0.2em auto;
       width: 50%;
     }
