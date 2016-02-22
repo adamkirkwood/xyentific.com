@@ -18,7 +18,7 @@
     text-align: center;
     margin: 0 20px;
 
-    @include mappy-bp(max small) {
+    @include mappy-bp(med) {
       font-size: $h1-size;
       margin: 0 auto 0.2em auto;
       width: 50%;
@@ -31,7 +31,7 @@
     text-align: center;
     margin: 0 20px;
 
-    @include mappy-bp(max small) {
+    @include mappy-bp(med) {
       margin: 0 auto;
       width: 50%;
     }

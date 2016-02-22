@@ -17,8 +17,6 @@
 
   &__content {
     @include clearfix();
-    // max-width: 45vw;
-    // margin: 0 22.5vw;
     justify-content: center;
     align-items: center;
 
@@ -38,7 +36,7 @@
       // margin-bottom: 1.5rem;
       color: getColor(text, secondary);
 
-      @include mappy-bp(max small) {
+      @include mappy-bp(med) {
         font-size: $h2-size;
       }
     }
@@ -47,7 +45,7 @@
       font-size: $h4-size;
       color: getColor(text, primary);
 
-      @include mappy-bp(max small) {
+      @include mappy-bp(med) {
         font-size: $h3-size;
       }
     }
@@ -116,6 +114,36 @@
   @include mappy-bp(med) {
     flex-direction: row;
     // padding: 0 15% 7rem;
+  }
+
+  .page__content {
+    & > p,
+    & > ul,
+    & > h1,
+    & > h2,
+    & > h3,
+    & > h4,
+    & > h5 {
+
+      max-width: none;
+      margin-right: 20px;
+      margin-left: 20px;
+
+      // @include mappy-bp(med) {
+      //   margin-left: 80px;
+      //   margin-right: 80px;
+      // }
+      //
+      // @include mappy-bp(large) {
+      //   max-width: 60vw;
+      //   margin-left: auto;
+      //   margin-right: auto;
+      // }
+      //
+      // @include mappy-bp(xlarge) {
+      //   max-width: 45vw;
+      // }
+    }
   }
 
   // .page__content {
