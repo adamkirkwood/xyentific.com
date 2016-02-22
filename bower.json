@@ -27,6 +27,7 @@
     "jquery-unveil": "~1.3.0",
     "headroomjs": "headroom.js#^0.7.0",
     "jquery": "^2.2.0",
-    "normalizecss": "normalize.css#~3.0.3"
+    "normalizecss": "normalize.css#~3.0.3",
+    "mappy-breakpoints": "^0.2.1"
   }
 }

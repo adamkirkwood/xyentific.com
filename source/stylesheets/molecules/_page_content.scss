@@ -8,13 +8,15 @@
     align-items: center;
     width: 100%;
 
-    padding: 7rem 0;
+    padding: 4rem 0;
+
+    @include mappy-bp(max small) {
+      padding: 7rem 0;
+    }
   }
 
   &__content {
     @include clearfix();
-    // max-width: 45vw;
-    // margin: 0 22.5vw;
     justify-content: center;
     align-items: center;
 
@@ -28,16 +30,24 @@
 
     & h2 {
       font-family: $font-family-headings;
-      font-size: $h2-size;
+      font-size: $h3-size;
       // line-height: 1.1em;
       margin-top: 0;
       // margin-bottom: 1.5rem;
       color: getColor(text, secondary);
+
+      @include mappy-bp(med) {
+        font-size: $h2-size;
+      }
     }
 
     & h3 {
-      font-size: $h3-size;
+      font-size: $h4-size;
       color: getColor(text, primary);
+
+      @include mappy-bp(med) {
+        font-size: $h3-size;
+      }
     }
 
     & h4 {
@@ -53,9 +63,25 @@
     & > h3,
     & > h4,
     & > h5 {
-      max-width: 45vw;
-      margin-left: auto;
-      margin-right: auto;
+
+      max-width: none;
+      margin-right: 20px;
+      margin-left: 20px;
+
+      @include mappy-bp(med) {
+        margin-left: 80px;
+        margin-right: 80px;
+      }
+
+      @include mappy-bp(large) {
+        max-width: 60vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      @include mappy-bp(xlarge) {
+        max-width: 45vw;
+      }
     }
 
 
@@ -81,29 +107,73 @@
 }
 
 .page__section--two-up {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  padding: 0 15% 7rem;
+
+  @include mappy-bp(med) {
+    flex-direction: row;
+    // padding: 0 15% 7rem;
+  }
 
   .page__content {
-    width: 50%;
+    & > p,
+    & > ul,
+    & > h1,
+    & > h2,
+    & > h3,
+    & > h4,
+    & > h5 {
 
-    &:first-child {
-      padding-left: 10rem;
+      max-width: none;
+      margin-right: 20px;
+      margin-left: 20px;
+
+      // @include mappy-bp(med) {
+      //   margin-left: 80px;
+      //   margin-right: 80px;
+      // }
+      //
+      // @include mappy-bp(large) {
+      //   max-width: 60vw;
+      //   margin-left: auto;
+      //   margin-right: auto;
+      // }
+      //
+      // @include mappy-bp(xlarge) {
+      //   max-width: 45vw;
+      // }
     }
   }
+
+  // .page__content {
+  //   width: auto;
+  //   padding-left: 10rem;
+  //
+  //   @include mappy-bp(max small) {
+  //     width: 50%;
+  //
+  //     &:first-child {
+  //       padding-left: 0;
+  //     }
+  //   }
+  // }
 }
 
-.page__section--reverse {
-  flex-direction: row-reverse;
-
-  .page__content {
-    &:first-child {
-      padding-left: 5rem;
-    }
-  }
-}
+// .page__section--reverse {
+//   flex-direction: column;
+//
+//   @include mappy-bp(max small) {
+//     flex-direction: row-reverse;
+//
+//     .page__content {
+//       &:first-child {
+//         padding-left: 5rem;
+//       }
+//     }
+//   }
+//
+// }
 
 
 .media--fluid {
@@ -113,8 +183,24 @@
 em.leader {
   display: block;
   font-size: $h4-size;
-  max-width: 45vw;
-  margin-left: auto;
-  margin-right: auto;
   font-style: normal;
+
+  max-width: none;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  @include mappy-bp(med) {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  @include mappy-bp(large) {
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include mappy-bp(xlarge) {
+    max-width: 45vw;
+  }
 }
