@@ -12,19 +12,33 @@ blockquote {
   margin-right: 20px;
   margin-left: 20px;
 
-  @include mappy-bp(max small) {
+  @include mappy-bp(med) {
     font-size: $h4-size;
-    margin-left: 16vw;
-    margin-right: 16vw;
-    margin-bottom: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 1rem;
+  }
+
+  @include mappy-bp(large) {
+    font-size: $h3-size;
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+  }
+
+  @include mappy-bp(xlarge) {
+    max-width: 880px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .blockquote__byline {
   color: #48466D;
-  font-size: $h5-size;
+  font-size: $h6-size;
 
-  @include mappy-bp(max small) {
-    font-size: $h4-size;
+  @include mappy-bp(med) {
+    font-size: $h5-size;
   }
 }
