@@ -1,4 +1,4 @@
-nav.navigation.navigation__primary.headroom--top
+nav [ class="navigation navigation__primary headroom--top" ]
   .navigation-branding
     strong
       = link_to "Adam Kirkwood", "/"
@@ -10,3 +10,4 @@ nav.navigation.navigation__primary.headroom--top
     li[ class="navigation-item #{current_page.data.active_tab == 'work' ? 'navigation-item--active' : ''}"] = link_to "Work", "/work"
     li[ class="navigation-item"] = link_to "Writing", "https://medium.com/@adamkirkwood", target: '_blank'
     li[ class="navigation-item"] = link_to "Contact", "mailto:adam@xyentific.com"
+    li[ class="navigation-item navigation__toggle"] = link_to "☰", "#footer-nav"
