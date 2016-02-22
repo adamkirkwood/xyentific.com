@@ -22,7 +22,7 @@ $breakpoints: (
 // Typography
 // ----------
 
-$font-family:               "adelle", "Helvetica", "Arial", sans-serif;
+$font-family-text:               "adelle", "Helvetica", "Arial", sans-serif;
 $font-family-headings:      "proxima-nova", "Helvetica", "Arial", sans-serif;
 // $font-family-print:    "Georgia", "Times New Roman", "Times", serif;
 // $font-family-mono:     "Consolas", monospace;
@@ -34,12 +34,12 @@ $font-base-size-plus:       1.250em;
 // Heading sizes
 // ----------
 
-$h1-size: 3.998em;
-$h2-size: 2.827em;
-$h3-size: 1.999em;
-$h4-size: 1.414em;
+$h1-size: 2.441em;
+$h2-size: 1.953em;
+$h3-size: 1.563em;
+$h4-size: 1.25em;
 $h5-size: 1em;
-$h6-size: 0.707em;
+$h6-size: 0.8em;
 // $giga-size: 80;
 // $mega-size: 64;
 // $kilo-size: 52;
@@ -60,6 +60,9 @@ $colors: (
     'dark': #393E46
   ),
   text: (
+    'ui': #FFFFFF,
+    'content': rgba(0,0,0,0.8),
+    'headings': rgba(0,0,0,0.9),
     'primary': rgba(0,0,0,0.7),
     'secondary': rgba(0,0,0,0.6)
   ),
