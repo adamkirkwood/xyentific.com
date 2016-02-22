@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
 h1 {
   // font-size: 55px;
   font-size: $h1-size;
-  font-family: $font-family-headings-alt;
+  font-family: $font-family-headings;
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
@@ -17,7 +17,7 @@ h1 {
 h2 {
   // font-size: 44px;
   font-size: $h2-size;
-  font-family: $font-family-headings-alt;
+  font-family: $font-family-headings;
   font-weight: 500;
   // text-transform: uppercase;
 }
@@ -25,7 +25,7 @@ h2 {
 h3 {
   // font-size: 28px;
   font-size: $h3-size;
-  font-family: $font-family-headings-alt;
+  font-family: $font-family-headings;
   // text-transform: uppercase;
   font-style: normal;
   font-weight: 400;

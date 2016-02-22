@@ -22,9 +22,8 @@ $breakpoints: (
 // Typography
 // ----------
 
-$font-family:               "ff-tisa-web-pro", "Helvetica", "Arial", sans-serif;
-$font-family-headings:      "freight-sans-compressed-pro", "Helvetica", "Arial", sans-serif;
-$font-family-headings-alt:  "freight-sans-pro", "Helvetica", "Arial", sans-serif;
+$font-family:               "adelle", "Helvetica", "Arial", sans-serif;
+$font-family-headings:      "proxima-nova", "Helvetica", "Arial", sans-serif;
 // $font-family-print:    "Georgia", "Times New Roman", "Times", serif;
 // $font-family-mono:     "Consolas", monospace;
 $font-base-size:            1.125em;
@@ -57,7 +56,8 @@ $h6-size: 0.707em;
 $colors: (
   base: (
     'primary': #FFFFFF,
-    'alt': #EEEEEE
+    'alt': #EEEEEE,
+    'dark': #393E46
   ),
   text: (
     'primary': rgba(0,0,0,0.7),
