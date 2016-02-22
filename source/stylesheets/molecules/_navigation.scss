@@ -100,7 +100,7 @@
 }
 
 .navigation--mobile {
-  @include mappy-bp(small) {
+  @include mappy-bp(med) {
     display: none;
   }
 
