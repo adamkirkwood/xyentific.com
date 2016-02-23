@@ -1,7 +1,7 @@
 section.shareit
   em Like what you've read? Share the love.
   ul
-    li = link_to "https://twitter.com/home?status=http%3A//xyentific.com/work/recurly-app" do
+    li = link_to "https://twitter.com/home?status=http%3A//xyentific.com#{ current_page.url }" do
       | <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" style="enable-background:new 0 0 56.693 56.693;"
          xml:space="preserve">
@@ -16,7 +16,7 @@ section.shareit
       | </svg>
 
 
-    li = link_to "https://www.facebook.com/sharer/sharer.php?u=http%3A//xyentific.com/work/recurly-app" do
+    li = link_to "https://www.facebook.com/sharer/sharer.php?u=http%3A//xyentific.com#{ current_page.url }" do
       | <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" enable-background="new 0 0 56.693 56.693" xml:space="preserve">
       | <path class="icon-facebook" d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029
@@ -24,7 +24,7 @@ section.shareit
         L40.43,21.739z"/>
       | </svg>
 
-    li = link_to "https://plus.google.com/share?url=http%3A//xyentific.com/work/recurly-app" do
+    li = link_to "https://plus.google.com/share?url=http%3A//xyentific.com#{ current_page.url }" do
       | <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          width="56.6934px" height="56.6934px" viewBox="0 0 56.6934 56.6934" style="enable-background:new 0 0 56.6934 56.6934;"
          xml:space="preserve">
@@ -44,7 +44,7 @@ section.shareit
       | </svg>
 
 
-    li = link_to "https://www.linkedin.com/shareArticle?mini=true&url=http%3A//xyentific.com/work/recurly-app&title=Title&summary=Summary&source=" do
+    li = link_to "https://www.linkedin.com/shareArticle?mini=true&url=http%3A//xyentific.com#{ current_page.url }&title=#{ current_page.data.title }&summary=#{ current_page.data.leader_copy }&source=" do
       | <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          width="56.693px" height="56.693px" viewBox="0 0 56.693 56.693" enable-background="new 0 0 56.693 56.693" xml:space="preserve">
       | <g>
