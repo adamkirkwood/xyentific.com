@@ -8,8 +8,13 @@
   // padding-top: 26vh;
   border-bottom: 1px solid rgba(0,0,0,0.05);
 
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+
   &__title {
-    color: rgba(0,0,0,0.8);
+    color: getColor(base,primary);
     font-family: $font-family-headings;
     font-weight: 400;
     font-size: $h3-size;
@@ -26,7 +31,7 @@
   }
 
   &__leader {
-    color: rgba(0,0,0,0.8);
+    color: getColor(base,primary);
     font-size: $font-base-size;
     text-align: center;
     margin: 0 20px;

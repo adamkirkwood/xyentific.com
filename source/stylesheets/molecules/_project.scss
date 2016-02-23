@@ -1,0 +1,61 @@
+.project {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+
+  @include mappy-bp(med) {
+    flex-direction: row;
+    padding: 7rem 40px;
+  }
+
+  @include mappy-bp(large) {
+    padding: 7rem 10vw;
+  }
+
+  @include mappy-bp(xlarge) {
+    padding: 7rem 22vw;
+  }
+
+  .project__content {
+    padding: 0 20px;
+    width: 100%;
+
+    @include mappy-bp(med) {
+      width: 50%
+    }
+  }
+
+  a {
+    color: getColor(base,primary);
+  }
+
+  h3, p {
+    text-align: center;
+    color: getColor(base,primary);
+
+    @include mappy-bp(med) {
+      text-align: left;
+    }
+  }
+
+}
+
+
+.project--tango-out {
+  background-color: darken(getColor(projects,tango-out), 8%);
+  a.button { color: getColor(projects,tango-out); }
+  // background: url('../images/work/tango-out/bg-tango-out.jpg') top center;
+}
+
+.project--tango-video {
+  background-color: darken(getColor(projects,tango-video), 8%);
+  a.button { color: getColor(projects,tango-video); }
+}
+
+.project--recurly-app {
+  background-color: darken(getColor(projects,recurly-app), 8%);
+  a.button { color: getColor(projects,recurly-app); }
+}
