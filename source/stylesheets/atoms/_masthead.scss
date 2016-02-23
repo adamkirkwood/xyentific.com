@@ -14,7 +14,7 @@
   background-repeat-y: no-repeat;
 
   &__title {
-    color: getColor(base,primary);
+    color: getColor(text,headings);
     font-family: $font-family-headings;
     font-weight: 400;
     font-size: $h3-size;
@@ -31,7 +31,7 @@
   }
 
   &__leader {
-    color: getColor(base,primary);
+    color: getColor(text,secondary);
     font-size: $font-base-size;
     text-align: center;
     margin: 0 20px;
@@ -39,6 +39,16 @@
     @include mappy-bp(med) {
       margin: 0 auto;
       width: 50%;
+    }
+  }
+
+  &--dark {
+    .masthead__title {
+      color: getColor(base,primary);
+    }
+
+    .masthead__leader {
+      color: getColor(base,primary);
     }
   }
 
