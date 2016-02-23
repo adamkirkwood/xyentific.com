@@ -4,7 +4,7 @@
 
 button,
 .button {
-  background-color: getColor(base, alt);
+  background-color: getColor(base, primary);
   border: none;
   color: getColor(text, primary);
   cursor: pointer;
@@ -103,8 +103,8 @@ button,
 }
 
 .button--bordered {
-  background-color: getColor(base, primary);
-  border: 1px solid getColor(blue, base);
+  background-color: transparent;
+  border: 1px solid getColor(base, base);
   color: getColor(blue, base);
 
   &:hover,
