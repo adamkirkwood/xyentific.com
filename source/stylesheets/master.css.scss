@@ -16,12 +16,14 @@
 @import "atoms/blockquote";
 @import "atoms/headings";
 @import "atoms/masthead";
+@import "atoms/icons";
 
 // Molecules
 @import "molecules/navigation";
 @import "molecules/footer";
 @import "molecules/page_header";
 @import "molecules/page_content";
+@import "molecules/shareit";
 
 * {
   box-sizing: border-box;

@@ -1,0 +1,40 @@
+.shareit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  padding: 3rem 20px;
+  width: 100%;
+
+  @include mappy-bp(med) {
+    padding: 5rem 0;
+  }
+
+  em {
+    font-size: $h3-size;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+  }
+
+  a {
+    display: block;
+    padding: 0 1rem;
+
+  }
+
+  svg {
+    display: block;
+    width: 36px;
+  }
+
+}

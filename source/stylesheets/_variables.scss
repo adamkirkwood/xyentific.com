@@ -63,10 +63,21 @@ $colors: (
     'ui': #FFFFFF,
     'content': rgba(0,0,0,0.8),
     'headings': rgba(0,0,0,0.9),
+    'subtle': rgba(0,0,0,0.6),
     'primary': rgba(0,0,0,0.7),
     'secondary': rgba(0,0,0,0.6)
   ),
   blue: (
     'base': #3D84A8
+  ),
+  platform: (
+    'dribbble': #ea4c89,
+    'facebook': #3b5998,
+    'twitter': #55acee,
+    'linkedin': #0077b5,
+    'pinterest': #bd081c,
+    'google-plus': #dc4e41,
+    'github': #4183c4,
+    'medium': #00ab6b
   )
 );
