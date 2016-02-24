@@ -1,6 +1,7 @@
 html { font-size: $font-base-size; }
 
 body {
+  background-color: getColor(base,alt);
   font-family: $font-family-text;
   margin: 0;
   padding: 0;
