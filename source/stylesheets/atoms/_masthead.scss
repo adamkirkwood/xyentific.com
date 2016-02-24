@@ -43,18 +43,22 @@
   }
 
   &--dark {
-    .masthead__title {
-      color: getColor(base,primary);
-    }
-
+    .masthead__title,
     .masthead__leader {
       color: getColor(base,primary);
     }
   }
 
+  &--light {
+    .masthead__title,
+    .masthead__leader {
+      color: getColor(base,dark);
+    }
+  }
+
   &--full {
     padding-top: 26vh;
-    height: 100vh;
+    height: 660px;
     justify-content: flex-start;
   }
 
