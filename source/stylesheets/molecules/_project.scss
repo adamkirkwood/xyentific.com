@@ -5,11 +5,12 @@
   align-items: center;
   padding: 4rem 0;
   width: 100%;
-  max-height: 660px;
+  max-height: none;
 
   @include mappy-bp(med) {
     flex-direction: row;
     padding: 7rem 40px;
+    max-height: 660px;
   }
 
   @include mappy-bp(large) {
@@ -55,17 +56,23 @@
 .project--tango-out {
   // background-color: darken(getColor(projects,tango-out), 8%);
   background: url('../images/work/tango-out/masthead-tango-out.jpg') top center no-repeat;
+  background-size: cover;
+
   a.button { color: getColor(projects,tango-out); }
 }
 
 .project--tango-video {
   // background-color: darken(getColor(projects,tango-video), 8%);
   background: url('../images/work/tango-video-calling/masthead-tango-video-calling.jpg') top center no-repeat;
+  background-size: cover;
+
   a.button { color: getColor(projects,tango-video); }
 }
 
 .project--recurly-app {
   // background-color: darken(getColor(projects,recurly-app), 8%);
   background: url('../images/work/recurly-app/masthead-recurly-bg.jpg') top center no-repeat;
+  background-size: cover;
+  
   a.button { color: getColor(projects,recurly-app); }
 }
