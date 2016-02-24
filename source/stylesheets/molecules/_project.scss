@@ -5,6 +5,7 @@
   align-items: center;
   padding: 4rem 0;
   width: 100%;
+  max-height: 660px;
 
   @include mappy-bp(med) {
     flex-direction: row;
@@ -28,16 +29,23 @@
     }
   }
 
-  a {
-    color: getColor(base,primary);
-  }
-
   h3, p {
     text-align: center;
-    color: getColor(base,primary);
 
     @include mappy-bp(med) {
       text-align: left;
+    }
+  }
+
+  &--dark {
+    h3, p, a {
+      color: getColor(base,primary);
+    }
+  }
+
+  &--light {
+    h3, p, a {
+      color: getColor(base,dark);
     }
   }
 
@@ -45,18 +53,19 @@
 
 
 .project--tango-out {
-  background-color: darken(getColor(projects,tango-out), 8%);
+  // background-color: darken(getColor(projects,tango-out), 8%);
+  background: url('../images/work/tango-out/masthead-tango-out.jpg') top center no-repeat;
   a.button { color: getColor(projects,tango-out); }
-  // background: url('../images/work/tango-out/bg-tango-out.jpg') top center;
 }
 
 .project--tango-video {
-  background-color: darken(getColor(projects,tango-video), 8%);
+  // background-color: darken(getColor(projects,tango-video), 8%);
+  background: url('../images/work/tango-video-calling/masthead-tango-video-calling.jpg') top center no-repeat;
   a.button { color: getColor(projects,tango-video); }
 }
 
 .project--recurly-app {
   // background-color: darken(getColor(projects,recurly-app), 8%);
-  background: url('../images/work/recurly-app/masthead-recurly-bg.jpg') top center;
+  background: url('../images/work/recurly-app/masthead-recurly-bg.jpg') top center no-repeat;
   a.button { color: getColor(projects,recurly-app); }
 }

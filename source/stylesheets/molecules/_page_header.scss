@@ -16,3 +16,11 @@
     width: 40vw;
   }
 }
+
+.header__backdrop {
+  @include clearfix();
+  width: 100%;
+  height: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
