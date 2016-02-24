@@ -10,7 +10,7 @@ html
     == partial "main_navigation"
 
     article.page
-      header [ class="masthead #{ current_page.data.masthead_class || '' }" style="background-image: url(#{current_page.data.masthead_image}); background-size: #{ current_page.data.masthead_img_size || '' };" ]
+      header [ class="masthead #{ current_page.data.masthead_class || '' }" style="background-image: url(#{current_page.data.masthead_image}) no-repeat; background-size: #{ current_page.data.masthead_img_size || '' };" ]
         h1.masthead__title == current_page.data.page_title
         p.masthead__leader == current_page.data.leader_copy
 
