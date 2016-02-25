@@ -9,10 +9,6 @@
     width: 100%;
 
     padding: 4rem 0;
-
-    @include mappy-bp(med) {
-      padding: 7rem 0;
-    }
   }
 
   &__content {
@@ -60,8 +56,8 @@
     & > h5 {
 
       max-width: none;
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 2rem;
+      margin-left: 2rem;
 
       @include mappy-bp(med) {
         margin-left: 80px;
@@ -69,13 +65,13 @@
       }
 
       @include mappy-bp(large) {
-        max-width: 60vw;
+        max-width: 80vw;
         margin-left: auto;
         margin-right: auto;
       }
 
       @include mappy-bp(xlarge) {
-        max-width: 45vw;
+        max-width: 50vw;
       }
     }
 
@@ -150,8 +146,8 @@ em.leader {
   font-style: normal;
 
   max-width: none;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 2rem;
+  margin-left: 2rem;
 
   @include mappy-bp(med) {
     margin-left: 80px;
@@ -159,12 +155,12 @@ em.leader {
   }
 
   @include mappy-bp(large) {
-    max-width: 60vw;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
   }
 
   @include mappy-bp(xlarge) {
-    max-width: 45vw;
+    max-width: 50vw;
   }
 }
