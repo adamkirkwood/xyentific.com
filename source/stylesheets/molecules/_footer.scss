@@ -1,21 +1,31 @@
 footer {
-  background-color: getColor(base, dark);
+  background-color: getColor(base, primary);
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: flex-start;
   justify-content: space-between;
   align-content: stretch;
   font-family: $font-family-headings;
 
   @include mappy-bp(med) {
+    flex-direction: column;
     flex-direction: row;
   }
 
+  & p {
+    text-align: center;
+    color: getColor(base,dark);
+    font-size: $font-size-small;
+
+    @include mappy-bp(med) {
+      text-align: left;
+      padding: 0 0 0 1rem;
+    }
+  }
+
   & a {
-    padding: 0 1rem;
     display: block;
     color: getColor(base, primary);
-    line-height: 62px;
     text-decoration: none;
     text-align: center;
 
@@ -32,24 +42,37 @@ footer {
 
 .footer__link-list {
   list-style: none;
-  margin: 0 1rem;
+  margin: 0 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 
   @include mappy-bp(med) {
-    flex-direction: row;
-    margin: 0 0 0 1rem;
+    justify-content: flex-end;
+    margin: 0 1rem 0 0;
+  }
+
+  a {
+    display: block;
+    padding: 0 0.5rem;
   }
 }
 
 .footer__list-item {
   display: block;
-  width: 100%;
-}
 
-.footer__byline {
-  margin: 0 2rem 0 0;
+  svg {
+    display: block;
+    width: 24px;
+  }
+
+  .icon-github,
+  .icon-linkedin,
+  .icon-dribbble,
+  .icon-twitter,
+  .icon-medium {
+    fill: getColor(base,dark);
+  }
 }
