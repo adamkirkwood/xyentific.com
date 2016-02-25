@@ -19,15 +19,20 @@
 }
 
 .card {
+  border-radius: 4px;
   border: 1px solid getColor(base, alt);
   margin: 0 20px 20px 20px;
   padding: 1.5rem 1.5rem 0 1.5rem;
   min-height: 150px;
   background-color: getColor(base, primary);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.05);
   // max-width: none;
 
   @include mappy-bp(large) {
-    width: 92%;
+    // width: 92%;
+    // max-width: 49vw;
+    width: 82%;
+max-width: 82%;
     margin: 1% 4%;
   }
 }
