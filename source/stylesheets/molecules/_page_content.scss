@@ -9,10 +9,6 @@
     width: 100%;
 
     padding: 4rem 0;
-
-    @include mappy-bp(med) {
-      padding: 7rem 0;
-    }
   }
 
   &__content {
