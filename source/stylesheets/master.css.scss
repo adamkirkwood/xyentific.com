@@ -26,6 +26,9 @@
 @import "molecules/project";
 @import "molecules/shareit";
 
+// States
+@import "states/is_pressable";
+
 * {
   box-sizing: border-box;
 }

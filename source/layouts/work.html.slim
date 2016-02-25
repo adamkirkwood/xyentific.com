@@ -7,7 +7,7 @@ html
 
   body class="#{page_classes}"
     #top
-    == partial "main_navigation"
+    == partial "shared/main_navigation"
 
     article.page
       header [ class="masthead #{ current_page.data.masthead_class || '' }" ]
@@ -17,7 +17,7 @@ html
 
     == yield
 
-    == partial "footer"
+    == partial "shared/footer"
 
   / == javascript_include_tag "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"
   == javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"

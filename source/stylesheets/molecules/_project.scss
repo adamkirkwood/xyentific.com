@@ -38,6 +38,11 @@
     }
   }
 
+  small {
+    display: block;
+    color: getColor(base,primary)
+  }
+
   &--dark {
     h3, p, a {
       color: getColor(base,primary);
