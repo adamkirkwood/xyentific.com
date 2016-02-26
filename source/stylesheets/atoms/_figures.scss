@@ -1,9 +1,10 @@
 figure {
-  margin: 0;
+  margin: 1rem 0;
 }
 
 figcaption {
   padding: 1rem 0 0 0;
   text-align: center;
   color: getColor(text, subtle);
+  font-size: $font-size-small;
 }
