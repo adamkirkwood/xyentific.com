@@ -1,0 +1,39 @@
+.pagination {
+  height: 160px;
+  background-color: getColor(base,dark);
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    @include mappy-bp(med) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 0 2rem;
+    }
+  }
+
+  a {
+    color: getColor(base,primary);
+  }
+
+  &--prev {
+    &::before {
+      content: "← "
+    }
+  }
+
+  &--next {
+    &::after {
+      content: " →"
+    }
+  }
+}

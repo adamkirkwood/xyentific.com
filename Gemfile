@@ -2,6 +2,8 @@
 # the following line to use 'http://'
 source 'https://rubygems.org'
 
+gem 'rake'
+
 gem 'image_optim'
 gem 'image_optim_pack'
 gem 'slim'
