@@ -58,7 +58,8 @@
     color: black;
     line-height: 62px;
     text-decoration: none;
-    
+    font-size: typeset(heading,h4);
+    font-weight: normal;
   }
 }
 
@@ -77,6 +78,7 @@
     line-height: 62px;
     padding: 0 1rem;
     border-bottom: 2px solid transparent;
+    font-size: typeset(ui,small);
 
     &:hover {
       border-bottom: 2px solid #00adb5;
