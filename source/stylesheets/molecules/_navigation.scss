@@ -26,7 +26,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  font-family: $font-family-headings;
+  font-family: typeset(family,heading);
 
   .navigation-links {
     display: flex;
@@ -58,6 +58,7 @@
     color: black;
     line-height: 62px;
     text-decoration: none;
+    
   }
 }
 
@@ -78,13 +79,13 @@
     border-bottom: 2px solid transparent;
 
     &:hover {
-      border-bottom: 2px solid #00ADB5;
+      border-bottom: 2px solid #00adb5;
     }
   }
 
   &--active {
     & a {
-      border-bottom: 2px solid #00ADB5;
+      border-bottom: 2px solid #00adb5;
     }
   }
 
@@ -115,7 +116,7 @@
 
   .navigation-item {
     display: block;
-    font-family: $font-family-headings;
+    font-family: typeset(family,heading);
     border-top: 1px solid getColor(base,alt);
 
     & a {

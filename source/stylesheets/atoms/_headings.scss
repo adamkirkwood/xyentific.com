@@ -1,5 +1,5 @@
 h1, h2, h3, h4 {
-  font-family: $font-family-headings;
+  font-family: typeset(family,heading);
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: typeset(heading,h1);
   text-transform: uppercase;
   font-style: normal;
   font-weight: 600;
@@ -15,12 +15,12 @@ h1 {
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: typeset(heading,h2);
   font-weight: 500;
 }
 
 h3 {
-  font-size: $h3-size;
+  font-size: typeset(heading,h3);
   font-style: normal;
   font-weight: 400;
   margin-top: 3rem;
@@ -28,7 +28,7 @@ h3 {
 }
 
 h4 {
-  font-size: $h4-size;
+  font-size: typeset(heading,h4);
 }
 
 p {

@@ -5,7 +5,7 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
   align-content: stretch;
-  font-family: $font-family-headings;
+  font-family: typeset(family,headings);
 
   @include mappy-bp(med) {
     flex-direction: column;
@@ -15,7 +15,7 @@ footer {
   & p {
     text-align: center;
     color: getColor(base,dark);
-    font-size: $font-size-small;
+    font-size: typeset(ui,small);
 
     @include mappy-bp(med) {
       text-align: left;

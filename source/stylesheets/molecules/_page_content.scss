@@ -17,34 +17,34 @@
     align-items: center;
 
     & h1 {
-      font-family: $font-family-headings;
-      font-size: $h5-size;
+      font-family: typeset(family, heading);
+      font-size: typeset(heading, h5);
       letter-spacing: 0.18rem;
       margin-bottom: 1rem;
       text-align: center;
     }
 
     & h2 {
-      font-family: $font-family-headings;
-      font-size: $h3-size;
+      font-family: typeset(family, heading);
+      font-size: typeset(heading, h3);
       margin-top: 0;
 
       @include mappy-bp(med) {
-        font-size: $h2-size;
+        font-size: typeset(heading, h2);
       }
     }
 
     & h3 {
-      font-size: $h4-size;
+      font-size: typeset(heading,h4);
 
       @include mappy-bp(med) {
-        font-size: $h3-size;
+        font-size: typeset(heading,h3);
       }
     }
 
     & h4 {
-      font-family: $font-family-headings;
-      font-size: $h4-size;
+      font-family: typeset(family,heading);
+      font-size: typeset(heading,h4);
     }
 
     & > p,
@@ -142,7 +142,7 @@
 
 em.leader {
   display: block;
-  font-size: $h4-size;
+  font-size: typeset(heading,h4);
   font-style: normal;
 
   max-width: none;
