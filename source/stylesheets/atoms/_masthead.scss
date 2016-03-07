@@ -28,6 +28,14 @@
       margin: 0 auto 0.2em auto;
       width: 50%;
     }
+
+    @include fadeInUp(
+      $count: 1,
+      $duration: $transition-duration,
+      $delay: 0.7s,
+      $function: ease,
+      $fill: both
+    );
   }
 
   &__leader {
@@ -40,6 +48,14 @@
       margin: 0 auto;
       width: 50%;
     }
+
+    @include fadeInUp(
+      $count: 1,
+      $duration: $transition-duration,
+      $delay: 0.9s,
+      $function: ease-out,
+      $fill: both
+    );
   }
 
   &--dark {
