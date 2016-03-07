@@ -24,9 +24,9 @@ footer {
   }
 
   & a {
-    display: block;
-    color: getColor(base, primary);
-    text-decoration: none;
+    display: inline;
+    color: getColor(base, dark);
+    text-decoration: underline;
     text-align: center;
 
     @include mappy-bp(med) {
