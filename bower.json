@@ -29,6 +29,7 @@
     "jquery": "^2.2.0",
     "normalizecss": "normalize.css#~3.0.3",
     "mappy-breakpoints": "^0.2.1",
-    "animatewithsass": "^3.2.2"
+    "animatewithsass": "^3.2.2",
+    "typeset": "*"
   }
 }
