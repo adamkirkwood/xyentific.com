@@ -44,11 +44,11 @@
 }
 
 .card-title {
-  font-family: $font-family-headings;
-  font-size: $h4-size;
+  font-family: typeset(family,heading);
+  font-size: typeset(heading,h4);
   color: getColor(blue, base);
 }
 
 .card-content {
-  font-size: $h5-size;
+  font-size: typeset(heading,h5);
 }

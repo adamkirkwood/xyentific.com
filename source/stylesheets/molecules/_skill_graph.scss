@@ -1,0 +1,71 @@
+.skill-graph {
+  width: 100%;
+
+  background-color: getColor(base, primary);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.05);
+  border-radius: 4px;
+  border: 1px solid getColor(base, alt);
+
+  overflow: hidden;
+}
+
+.stacked-bars {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.skill-segment {
+  display: block;
+  height: 10px;
+}
+
+.skill-name, .skill-value { display: none; }
+
+
+.skill-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+
+  @include mappy-bp(med) {
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+  }
+}
+
+.legend-item {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  text-align: left;
+
+  @include mappy-bp(med) {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+}
+
+.legend-name, .legend-value {
+  font-size: typeset(ui,small);
+  padding: 0 .25rem;
+}
+
+.legend-color {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  margin: 0 0.25rem 0 0;
+}

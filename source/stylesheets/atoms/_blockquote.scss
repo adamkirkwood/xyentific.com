@@ -8,19 +8,19 @@ blockquote {
   color: getColor(blue,base);
   margin: 0;
   font-style: italic;
-  font-size: $h5-size;
+  font-size: typeset(heading,h5);
   margin-right: 20px;
   margin-left: 20px;
 
   @include mappy-bp(med) {
-    font-size: $h4-size;
+    font-size: typeset(heading,h4);
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 1rem;
   }
 
   @include mappy-bp(large) {
-    font-size: $h3-size;
+    font-size: typeset(heading,h3);
     max-width: 680px;
     margin-left: auto;
     margin-right: auto;
@@ -36,9 +36,9 @@ blockquote {
 
 .blockquote__byline {
   color: #48466D;
-  font-size: $h6-size;
+  font-size: typeset(heading,h6);
 
   @include mappy-bp(med) {
-    font-size: $h5-size;
+    font-size: typeset(heading,h5);
   }
 }

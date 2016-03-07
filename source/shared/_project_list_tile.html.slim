@@ -1,13 +1,14 @@
 article.project.project--tango-out.project--dark
   .project__content
-    h3
-      = link_to 'Tango Out', '/work/tango-out'
-
-    small 7 min read
+    h3 = link_to 'Tango Out', '/work/tango-out'
 
     p A simplified calling experience was only the beginning
 
-    p = link_to 'View Case Study', '/work/tango-out', class: 'button button--pill is-pressable'
+    p = link_to 'View Details', '/work/tango-out', class: 'button button--pill is-pressable'
+
+    p
+      | or, read the
+      =< link_to 'full case study', '/work/tango-out/extended', style: "text-decoration: underline"
 
   .project__content
     figure
@@ -18,11 +19,9 @@ article.project.project--tango-video.project--dark
   .project__content
     h3 = link_to 'Tango Video Calling', '/work/tango-video-calling'
 
-    small 3 min read
-
     p A new take on a familiar video calling experience
 
-    p = link_to 'View Case Study', '/work/tango-video-calling', class: 'button button--pill is-pressable'
+    p = link_to 'View Details', '/work/tango-video-calling', class: 'button button--pill is-pressable'
 
 
   .project__content
@@ -33,11 +32,9 @@ article.project.project--recurly-app.project--dark
   .project__content
     h3 = link_to 'Recurly app', '/work/recurly-app'
 
-    small 3 min read
-
     p A tactical redesign of mission critical software
 
-    p = link_to 'View Case Study', '/work/recurly-app', class: 'button button--pill is-pressable'
+    p = link_to 'View Details', '/work/recurly-app', class: 'button button--pill is-pressable'
 
 
   .project__content

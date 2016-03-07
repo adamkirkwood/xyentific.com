@@ -1,0 +1,14 @@
+h3 Time spent
+
+figure.skill-graph
+  ul.skill-legend
+    - skills.each do |skill|
+      li.legend-item
+        span.legend-color [ style="background-color: #{skill.color}" ]
+        strong.legend-name = skill.name
+        span.legend-value = skill.value
+  ul.stacked-bars
+    - skills.each do |skill|
+      li.skill-segment [ style="width: #{skill.value}; background-color: #{skill.color};" ]
+        strong.skill-name = skill.name
+        span.skill-value = skill.value

@@ -1,9 +1,9 @@
-html { font-size: $font-base-size; }
+html { font-size: typeset(ui,base); }
 
 body {
   // background-color: getColor(base,alt);
   background-color: #FBFBFB;
-  font-family: $font-family-text;
+  font-family: typeset(family,body);
   margin: 0;
   padding: 0;
   color: rgba(0,0,0,0.7);

@@ -1,0 +1,79 @@
+{
+  "tango_out": {
+    "skills": [
+      {
+        "name": "UX",
+        "value": "40%",
+        "color": "#4AC6B7"
+      },
+      {
+        "name": "UI",
+        "value": "20%",
+        "color": "#4F5E7F"
+      },
+      {
+        "name": "User Research",
+        "value": "15%",
+        "color": "#41B3D3"
+      },
+      {
+        "name": "Prototyping",
+        "value": "20%",
+        "color": "#965F8A"
+      },
+      {
+        "name": "Icons",
+        "value": "5%",
+        "color": "#FF7070"
+      }
+    ]
+  },
+  "tango_video_calling": {
+    "skills": [
+      {
+        "name": "UX",
+        "value": "35%",
+        "color": "#4AC6B7"
+      },
+      {
+        "name": "UI",
+        "value": "20%",
+        "color": "#4F5E7F"
+      },
+      {
+        "name": "Interaction Design",
+        "value": "15%",
+        "color": "#41B3D3"
+      },
+      {
+        "name": "Prototyping",
+        "value": "25%",
+        "color": "#965F8A"
+      },
+      {
+        "name": "Icons",
+        "value": "5%",
+        "color": "#FF7070"
+      }
+    ]
+  },
+  "recurly_app": {
+    "skills": [
+      {
+        "name": "Pattern Library",
+        "value": "40%",
+        "color": "#4AC6B7"
+      },
+      {
+        "name": "Visual Design",
+        "value": "40%",
+        "color": "#4F5E7F"
+      },
+      {
+        "name": "Prototyping",
+        "value": "20%",
+        "color": "#965F8A"
+      }
+    ]
+  }
+}
