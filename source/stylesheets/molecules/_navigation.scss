@@ -27,6 +27,7 @@
   justify-content: space-between;
   width: 100%;
   font-family: typeset(family,heading);
+  z-index: 100; // prevent visual conflict with animate.css
 
   .navigation-links {
     display: flex;
