@@ -19,23 +19,7 @@ section.page__section
     h2 What I was responsible for
     p I led the UX strategy and visual design for Tango Out. A feature used by millions of people to make phone calls around the world on both Android and iOS. I simplified the calling experience by focusing on meaningful core interactions that create value. A clear and usable experience was the icing on the cake.
 
-  .page__content
-    h2 Breakdown
-
-    figure.skill-graph
-      ul
-        li [ style="width: 45%; background-color: #e44b23;" ]
-          strong UX
-          span 25%
-        li [ style="width: 15%; background-color: #563d7c;" ]
-          strong Visual Design
-          span 25%
-        li [ style="width: 25%; background-color: #701516;" ]
-          strong Prototyping
-          span 25%
-        li [ style="width: 25%; background-color: #f1e05a;" ]
-          strong Stuff
-          span 25%
+    == partial "shared/skill_graph", locals: { skills: data.projects.tango_out.skills }
 
 figure
   == image_tag '/images/loader.gif', class: 'media--fluid', data: { 'src': "/images/work/tango-out/understand-business.jpg" }

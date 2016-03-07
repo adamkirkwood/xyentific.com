@@ -33,7 +33,7 @@
       $count: 1,
       $duration: $transition-duration,
       $delay: 0.7s,
-      $function: ease,
+      $function: ease-out,
       $fill: both
     );
   }
@@ -52,7 +52,7 @@
     @include fadeInUp(
       $count: 1,
       $duration: $transition-duration,
-      $delay: 0.9s,
+      $delay: 0.8s,
       $function: ease-out,
       $fill: both
     );
