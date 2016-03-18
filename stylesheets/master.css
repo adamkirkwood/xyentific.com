@@ -1,0 +1,1618 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 10, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 99, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 111, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 119, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 128, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 137, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 146, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 155, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 163, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 171, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 175, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 186, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 194, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 205, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 213, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 357, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 422, /Users/adam/workbench/xyentific.com/code/bower_components/normalizecss/normalize.css */
+td,
+th {
+  padding: 0; }
+
+/**
+ * Concise Framework
+ * https://github.com/ConciseCSS/concise.css
+ *
+ * Copyright 2015 Concise Team
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_root.scss */
+html {
+  font-size: 1.125em; }
+
+/* line 3, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_root.scss */
+body {
+  background-color: #FBFBFB;
+  font-family: "adelle", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.7); }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_a.scss */
+a {
+  text-decoration: none; }
+
+/* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+button,
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 3;
+  overflow: visible;
+  padding: 0 2.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: 150ms;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 25, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  button:hover, button:focus,
+  .button:hover,
+  .button:focus {
+    background-color: white;
+    color: inherit;
+    text-decoration: none; }
+  /* line 32, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  button:focus, button:active,
+  .button:focus,
+  .button:active {
+    outline: none; }
+  /* line 35, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  button:active,
+  .button:active {
+    background-color: white; }
+  /* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  button[disabled],
+  .button[disabled] {
+    background-color: #d5d5d5;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: not-allowed; }
+
+/* line 51, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--xsm {
+  font-size: 1.25em;
+  line-height: 1.5;
+  padding: 0 1.5em; }
+
+/* line 58, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--sm {
+  font-size: 1.563em;
+  line-height: 1.5;
+  padding: 0 2em; }
+
+/* line 65, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--lg {
+  font-size: 1.953em;
+  line-height: 1.5;
+  padding: 0 3em; }
+
+/* line 72, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--xlg {
+  font-size: 2.441em;
+  line-height: 1.5;
+  padding: 0 3.5em; }
+
+/* line 79, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--full {
+  width: 100%; }
+
+/* line 87, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--pill {
+  border-radius: 50px; }
+
+/* line 90, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--flat {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.7); }
+  /* line 94, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  .button--flat:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.7); }
+  /* line 99, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  .button--flat[disabled] {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.6); }
+
+/* line 105, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+.button--bordered {
+  background-color: transparent;
+  border: 1px solid;
+  color: #3D84A8; }
+  /* line 110, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_buttons.scss */
+  .button--bordered:hover, .button--bordered:focus {
+    background-color: #3D84A8;
+    color: #FFFFFF; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_device_frame.scss */
+.device-frame {
+  display: block;
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left; }
+  /* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_device_frame.scss */
+  .device-frame--nexus5x {
+    background: url(/images/assets/device_frame_nexus5x.png) transparent top left no-repeat;
+    background-size: cover;
+    width: 239px;
+    height: 491px;
+    padding-top: 46px;
+    padding-left: 11px; }
+
+/* line 19, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_device_frame.scss */
+.device-viewport {
+  display: block;
+  background-color: red; }
+  /* line 23, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_device_frame.scss */
+  .device-viewport--nexus5x {
+    width: 216px;
+    height: 384px;
+    width: 50px;
+    height: 50px; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_hr.scss */
+hr {
+  padding: 0;
+  border: none;
+  border-top: 4px solid #00adb5;
+  width: 4rem;
+  margin: 1rem auto 4rem auto; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_img.scss */
+img {
+  opacity: 0;
+  transition: opacity 150ms ease-in; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+.cards {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  @media all and (min-width: 47.5em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+    .cards {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: 80%; } }
+  @media all and (min-width: 60em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+    .cards {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/* line 21, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+.card {
+  border-radius: 4px;
+  border: 1px solid #EEEEEE;
+  margin: 1rem 1rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  min-height: 150px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.05); }
+  @media all and (min-width: 40em) {
+    /* line 21, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+    .card {
+      margin-left: 80px;
+      margin-right: 80px; } }
+  @media all and (min-width: 47.5em) {
+    /* line 21, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+    .card {
+      width: 100%;
+      max-width: 80vw;
+      margin: 1% 4%; } }
+
+/* line 46, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+.card-title {
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  font-size: 1.25em;
+  color: #3D84A8; }
+
+/* line 52, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_cards.scss */
+.card-content {
+  font-size: 1em; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_figures.scss */
+figure {
+  margin: 1rem 0; }
+
+/* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_figures.scss */
+figcaption {
+  padding: 1rem 0 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.8em; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+blockquote {
+  text-align: center;
+  margin: 4rem auto; }
+
+/* line 7, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+.blockquote__content {
+  color: #3D84A8;
+  margin: 0;
+  font-style: italic;
+  font-size: 1em;
+  margin-right: 20px;
+  margin-left: 20px; }
+  @media all and (min-width: 40em) {
+    /* line 7, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+    .blockquote__content {
+      font-size: 1.25em;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 1rem; } }
+  @media all and (min-width: 47.5em) {
+    /* line 7, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+    .blockquote__content {
+      font-size: 1.563em;
+      max-width: 680px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem; } }
+  @media all and (min-width: 60em) {
+    /* line 7, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+    .blockquote__content {
+      max-width: 880px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+.blockquote__byline {
+  color: #48466D; }
+  @media all and (min-width: 40em) {
+    /* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_blockquote.scss */
+    .blockquote__byline {
+      font-size: 1em; } }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+h1, h2, h3, h4 {
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.9); }
+
+/* line 9, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+h1 {
+  font-size: 2.441em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 0; }
+
+/* line 17, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+h2 {
+  font-size: 1.953em;
+  font-weight: 500; }
+
+/* line 22, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+h3 {
+  font-size: 1.563em;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 0; }
+
+/* line 30, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+h4 {
+  font-size: 1.25em; }
+
+/* line 34, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+p {
+  line-height: 1.9;
+  margin-bottom: 1.3em; }
+
+/* line 40, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_headings.scss */
+small, .font_small {
+  font-size: 0.707em; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+.masthead {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat; }
+  /* line 16, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead__title {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1.563em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 150ms;
+    animation-duration: 150ms;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+    @media all and (min-width: 40em) {
+      /* line 16, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+      .masthead__title {
+        font-size: 1.953em;
+        margin: 0 auto 0.2em auto;
+        width: 50%; } }
+  /* line 41, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead__leader {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.125em;
+    text-align: center;
+    margin: 0 20px;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 150ms;
+    animation-duration: 150ms;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+    @media all and (min-width: 40em) {
+      /* line 41, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+      .masthead__leader {
+        margin: 0 auto;
+        width: 50%; } }
+  /* line 62, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--dark .masthead__title,
+  .masthead--dark .masthead__leader {
+    color: #FFFFFF; }
+  /* line 69, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--light .masthead__title,
+  .masthead--light .masthead__leader {
+    color: #393E46; }
+  /* line 75, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--full {
+    padding-top: 26vh;
+    height: 660px;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+  /* line 81, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--half {
+    height: 50vh;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  /* line 86, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--third {
+    height: 66vh;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  /* line 91, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead--quarter {
+    height: 25vh;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  /* line 96, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+  .masthead br {
+    display: inline; }
+    @media all and (min-width: 40em) {
+      /* line 96, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_masthead.scss */
+      .masthead br {
+        display: none; } }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-facebook {
+  fill: #3b5998; }
+
+/* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-linkedin {
+  fill: #0077b5; }
+
+/* line 9, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-twitter {
+  fill: #55acee; }
+
+/* line 13, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-google-plus {
+  fill: #dc4e41; }
+
+/* line 17, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-medium {
+  fill: #00ab6b; }
+
+/* line 21, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-github {
+  fill: #4183c4; }
+
+/* line 25, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-dribbble {
+  fill: #ea4c89; }
+
+/* line 29, /Users/adam/workbench/xyentific.com/code/source/stylesheets/atoms/_icons.scss */
+.icon-pinterest {
+  fill: #bd081c; }
+
+/* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.headroom--pinned {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%); }
+
+/* line 8, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%); }
+
+/* line 12, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.headroom--top {
+  background-color: white; }
+
+/* line 16, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.headroom--not-top {
+  background-color: rgba(255, 255, 255, 0.98); }
+
+/* line 20, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.navigation {
+  transition: background 150ms linear, -webkit-transform 150ms linear;
+  transition: background 150ms linear, transform 150ms linear;
+  transition: background 150ms linear, transform 150ms linear, -webkit-transform 150ms linear;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  z-index: 100; }
+  /* line 32, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation .navigation-links {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    list-style: none;
+    margin: 0;
+    padding: 0 1rem 0 0; }
+    @media all and (min-width: 40em) {
+      /* line 32, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+      .navigation .navigation-links {
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+  /* line 47, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation .navigation__toggle {
+    display: block; }
+    @media all and (min-width: 40em) {
+      /* line 47, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+      .navigation .navigation__toggle {
+        display: none; } }
+
+/* line 56, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.navigation-branding {
+  padding: 0 0 0 1rem; }
+  /* line 58, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation-branding a {
+    color: black;
+    line-height: 62px;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: normal; }
+
+/* line 69, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.navigation-item {
+  text-align: center; }
+  /* line 74, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation-item a {
+    transition: border 150ms linear;
+    color: black;
+    display: block;
+    text-decoration: none;
+    line-height: 62px;
+    padding: 0 1rem;
+    border-bottom: 2px solid transparent;
+    font-size: 0.8em; }
+    /* line 84, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+    .navigation-item a:hover {
+      border-bottom: 2px solid #00adb5; }
+  /* line 90, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation-item--active a {
+    border-bottom: 2px solid #00adb5; }
+  /* line 95, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation-item:not(.navigation__toggle) {
+    display: none; }
+  @media all and (min-width: 40em) {
+    /* line 100, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+    .navigation-item:not(.navigation__toggle) {
+      display: block; } }
+
+@media all and (min-width: 40em) {
+  /* line 106, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation--mobile {
+    display: none; } }
+/* line 111, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.navigation--mobile .navigation-links {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem 0 0; }
+/* line 120, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+.navigation--mobile .navigation-item {
+  display: block;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  border-top: 1px solid #EEEEEE; }
+  /* line 125, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+  .navigation--mobile .navigation-item a {
+    border: none; }
+    /* line 128, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_navigation.scss */
+    .navigation--mobile .navigation-item a:hover {
+      border: none; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+footer {
+  background-color: #FFFFFF;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: stretch;
+      -ms-flex-line-pack: stretch;
+          align-content: stretch; }
+  @media all and (min-width: 40em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+    footer {
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  /* line 15, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  footer p {
+    text-align: center;
+    color: #393E46;
+    font-size: 0.8em; }
+    @media all and (min-width: 40em) {
+      /* line 15, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+      footer p {
+        text-align: left;
+        padding: 0 0 0 1rem; } }
+  /* line 26, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  footer a {
+    display: inline;
+    color: #393E46;
+    text-decoration: underline;
+    text-align: center; }
+    @media all and (min-width: 40em) {
+      /* line 26, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+      footer a {
+        text-align: left; } }
+  /* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  footer section {
+    padding: 2rem 0;
+    width: 100%; }
+
+/* line 43, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+.footer__link-list {
+  list-style: none;
+  margin: 0 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 40em) {
+    /* line 43, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+    .footer__link-list {
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin: 0 1rem 0 0; } }
+  /* line 57, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  .footer__link-list a {
+    display: block;
+    padding: 0 0.5rem; }
+
+/* line 63, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+.footer__list-item {
+  display: block; }
+  /* line 66, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  .footer__list-item svg {
+    display: block;
+    width: 24px; }
+  /* line 71, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_footer.scss */
+  .footer__list-item .icon-github,
+  .footer__list-item .icon-linkedin,
+  .footer__list-item .icon-dribbble,
+  .footer__list-item .icon-twitter,
+  .footer__list-item .icon-medium {
+    fill: #393E46; }
+
+/* line 2, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_header.scss */
+.page {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%; }
+  /* line 14, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page:before, .page:after {
+    content: "";
+    display: table; }
+  /* line 20, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page:after {
+    clear: both; }
+  /* line 11, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_header.scss */
+  .page__leader {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.125em;
+    text-align: center;
+    margin: 0 auto;
+    width: 40vw; }
+
+/* line 20, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_header.scss */
+.header__backdrop {
+  width: 100%;
+  height: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat; }
+  /* line 14, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .header__backdrop:before, .header__backdrop:after {
+    content: "";
+    display: table; }
+  /* line 20, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .header__backdrop:after {
+    clear: both; }
+
+/* line 2, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+.page__section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 4rem 0; }
+  /* line 14, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page__section:before, .page__section:after {
+    content: "";
+    display: table; }
+  /* line 20, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page__section:after {
+    clear: both; }
+/* line 14, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+.page__content {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center; }
+  /* line 14, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page__content:before, .page__content:after {
+    content: "";
+    display: table; }
+  /* line 20, /Users/adam/workbench/xyentific.com/code/bower_components/concise/src/core/globals/_mixins.scss */
+  .page__content:after {
+    clear: both; }
+  /* line 19, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content h1 {
+    font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.18rem;
+    margin-bottom: 1rem;
+    text-align: center; }
+  /* line 27, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content h2 {
+    font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+    font-size: 1.563em;
+    margin-top: 0; }
+    @media all and (min-width: 40em) {
+      /* line 27, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__content h2 {
+        font-size: 1.953em; } }
+  /* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content h3 {
+    font-size: 1.25em; }
+    @media all and (min-width: 40em) {
+      /* line 37, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__content h3 {
+        font-size: 1.563em; } }
+  /* line 45, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content h4 {
+    font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+    font-size: 1.25em; }
+  /* line 50, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content > p, .page__content > ul, .page__content > h1, .page__content > h2, .page__content > h3, .page__content > h4, .page__content > h5 {
+    max-width: none;
+    margin-right: 2rem;
+    margin-left: 2rem; }
+    @media all and (min-width: 40em) {
+      /* line 50, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__content > p, .page__content > ul, .page__content > h1, .page__content > h2, .page__content > h3, .page__content > h4, .page__content > h5 {
+        margin-left: 80px;
+        margin-right: 80px; } }
+    @media all and (min-width: 47.5em) {
+      /* line 50, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__content > p, .page__content > ul, .page__content > h1, .page__content > h2, .page__content > h3, .page__content > h4, .page__content > h5 {
+        max-width: 80vw;
+        margin-left: auto;
+        margin-right: auto; } }
+    @media all and (min-width: 60em) {
+      /* line 50, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__content > p, .page__content > ul, .page__content > h1, .page__content > h2, .page__content > h3, .page__content > h4, .page__content > h5 {
+        max-width: 50vw; } }
+  /* line 79, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content--image {
+    padding: 0;
+    width: 100%; }
+    /* line 83, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    .page__content--image image {
+      width: 100%; }
+  /* line 88, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__content--span {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: none;
+    margin: auto; }
+
+/* line 100, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+.page__section--two-up {
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+              -ms-grid-row-align: stretch;
+          align-items: stretch; }
+  @media all and (min-width: 40em) {
+    /* line 100, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    .page__section--two-up {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  /* line 109, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+  .page__section--two-up .page__content {
+    width: 100%; }
+    /* line 112, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    .page__section--two-up .page__content .button {
+      width: 100%; }
+    @media all and (min-width: 40em) {
+      /* line 109, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+      .page__section--two-up .page__content {
+        width: 50%; }
+        /* line 119, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+        .page__section--two-up .page__content .button {
+          width: auto; } }
+    /* line 124, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    .page__section--two-up .page__content > p, .page__section--two-up .page__content > ul, .page__section--two-up .page__content > h1, .page__section--two-up .page__content > h2, .page__section--two-up .page__content > h3, .page__section--two-up .page__content > h4 {
+      max-width: none;
+      margin-right: 20px;
+      margin-left: 20px; }
+
+/* line 139, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+.media--fluid {
+  width: 100%; }
+
+/* line 143, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+em.leader {
+  display: block;
+  font-size: 1.25em;
+  font-style: normal;
+  max-width: none;
+  margin-right: 2rem;
+  margin-left: 2rem; }
+  @media all and (min-width: 40em) {
+    /* line 143, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    em.leader {
+      margin-left: 80px;
+      margin-right: 80px; } }
+  @media all and (min-width: 47.5em) {
+    /* line 143, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    em.leader {
+      max-width: 80vw;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media all and (min-width: 60em) {
+    /* line 143, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_page_content.scss */
+    em.leader {
+      max-width: 50vw; } }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+.project {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  max-height: none; }
+  @media all and (min-width: 40em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+    .project {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 7rem 40px;
+      max-height: 660px; } }
+  @media all and (min-width: 47.5em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+    .project {
+      padding: 7rem 10vw; } }
+  @media all and (min-width: 60em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+    .project {
+      padding: 7rem 22vw; } }
+  /* line 24, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project .project__content {
+    padding: 0 20px;
+    width: 100%; }
+    @media all and (min-width: 40em) {
+      /* line 24, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+      .project .project__content {
+        width: 50%; } }
+  /* line 33, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project h3, .project p {
+    text-align: center; }
+    @media all and (min-width: 40em) {
+      /* line 33, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+      .project h3, .project p {
+        text-align: left; } }
+  /* line 41, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project small {
+    display: block;
+    color: #FFFFFF; }
+  /* line 47, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project--dark h3, .project--dark p, .project--dark a {
+    color: #FFFFFF; }
+  /* line 53, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project--light h3, .project--light p, .project--light a {
+    color: #393E46; }
+
+/* line 61, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+.project--tango-out {
+  background: url("../images/work/tango-out/masthead-tango-out.jpg") top center no-repeat;
+  background-size: cover; }
+  /* line 65, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project--tango-out a.button {
+    color: #2AC0F1; }
+
+/* line 68, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+.project--tango-video {
+  background: url("../images/work/tango-video-calling/masthead-tango-video-calling.jpg") top center no-repeat;
+  background-size: cover; }
+  /* line 72, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project--tango-video a.button {
+    color: #FE6443; }
+
+/* line 75, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+.project--recurly-app {
+  background: url("../images/work/recurly-app/masthead-recurly-bg.jpg") top center no-repeat;
+  background-size: cover; }
+  /* line 79, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_project.scss */
+  .project--recurly-app a.button {
+    color: #723080; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+.shareit {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  padding: 3rem 20px;
+  width: 100%; }
+  @media all and (min-width: 40em) {
+    /* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+    .shareit {
+      padding: 5rem 0; } }
+  /* line 14, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+  .shareit em {
+    font-size: 1.563em;
+    text-align: center; }
+  /* line 19, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+  .shareit ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0; }
+  /* line 29, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+  .shareit a {
+    display: block;
+    padding: 0 1rem; }
+  /* line 35, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_shareit.scss */
+  .shareit svg {
+    display: block;
+    width: 36px; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+.pagination {
+  height: 160px;
+  background-color: #393E46; }
+  /* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+  .pagination ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; }
+    @media all and (min-width: 40em) {
+      /* line 5, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+      .pagination ul {
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        padding: 0 2rem; } }
+  /* line 24, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+  .pagination a {
+    color: #FFFFFF; }
+  /* line 29, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+  .pagination--prev::before {
+    content: "← "; }
+  /* line 35, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_pagination.scss */
+  .pagination--next::after {
+    content: " →"; }
+
+/* line 1, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.skill-graph {
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px solid #EEEEEE;
+  overflow: hidden; }
+
+/* line 12, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.stacked-bars {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+/* line 24, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.skill-segment {
+  display: block;
+  height: 10px; }
+
+/* line 29, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.skill-name, .skill-value {
+  display: none; }
+
+/* line 32, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.skill-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  @media all and (min-width: 40em) {
+    /* line 32, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+    .skill-legend {
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-align-content: space-between;
+          -ms-flex-line-pack: justify;
+              align-content: space-between;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+/* line 49, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.legend-item {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 0.5rem 1rem;
+  text-align: left; }
+  @media all and (min-width: 40em) {
+    /* line 49, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+    .legend-item {
+      padding: 1rem 1rem;
+      text-align: center; } }
+
+/* line 60, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.legend-name, .legend-value {
+  font-size: 0.8em;
+  padding: 0 .25rem; }
+
+/* line 65, /Users/adam/workbench/xyentific.com/code/source/stylesheets/molecules/_skill_graph.scss */
+.legend-color {
+  display: inline-block;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  margin: 0 0.25rem 0 0; }
+
+/* line 2, /Users/adam/workbench/xyentific.com/code/source/stylesheets/states/is_pressable.scss */
+.is-pressable:active {
+  position: relative;
+  top: 1px; }
+
+/* line 39, /Users/adam/workbench/xyentific.com/code/source/stylesheets/master.css.scss */
+* {
+  box-sizing: border-box; }

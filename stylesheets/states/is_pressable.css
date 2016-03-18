@@ -1,0 +1,4 @@
+/* line 2, /Users/adam/workbench/xyentific.com/code/source/stylesheets/states/is_pressable.scss */
+.is-pressable:active {
+  position: relative;
+  top: 1px; }
